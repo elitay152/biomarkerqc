@@ -1,0 +1,1504 @@
+patient;visit_name;sample_date;analyte;value;units
+124;Week 4;16/09/2025;HbA1c;40;mmol/mol
+171;Screening;18/07/2025;HbA1c;41;mmol/mol
+166;Week 12;28/11/2025;Glucose;4,6;mmol/L
+160;Week 4;01/04/2025;Creatinine;77;µmol/L
+102;Week 12;01/12/2025;Potassium;4,4;mmol/L
+117;Week 4;25/02/2025;Total cholesterol;4,92;mmol/L
+142;Week 4;10/05/2025;HbA1c;36;mmol/mol
+133;Week 4;24/02/2025;Glucose;7,8;mmol/L
+160;Screening;04/03/2025;Glucose;5,2;mmol/L
+123;Screening;04/08/2025;Creatinine;92;µmol/L
+191;Week 12;21/10/2025;Total cholesterol;4,81;mmol/L
+152;Week 4;25/09/2025;Glucose;6,2;mmol/L
+133;Week 4;24/02/2025;HbA1c;57;mmol/mol
+126;Week 4;28/05/2025;Total cholesterol;4,82;mmol/L
+184;Screening;15/08/2025;Potassium;4,3;mmol/L
+153;Week 12;25/10/2025;Creatinine;74;µmol/L
+104;Week 12;09/05/2025;Creatinine;85;µmol/L
+139;Screening;26/01/2025;HbA1c;35;mmol/mol
+175;Week 12;18/10/2025;Glucose;5,3;mmol/L
+119;Week 4;06/07/2025;Potassium;4,2;mmol/L
+193;Week 12;19/08/2025;Total cholesterol;5,01;mmol/L
+139;Week 4;23/02/2025;Total cholesterol;4,69;mmol/L
+168;Screening;21/06/2025;Creatinine;90;µmol/L
+192;Week 12;03/12/2025;HbA1c;32;mmol/mol
+160;Screening;04/03/2025;HbA1c;43;mmol/mol
+192;Screening;10/09/2025;Creatinine;53;µmol/L
+126;Week 4;28/05/2025;Potassium;4,4;mmol/L
+165;Screening;11/01/2025;Total cholesterol;5,81;mmol/L
+164;Screening;17/05/2025;Total cholesterol;6,13;mmol/L
+164;Screening;17/05/2025;Glucose;4,4;mmol/L
+143;Week 12;29/09/2025;HbA1c;33;mmol/mol
+125;Week 12;04/09/2025;HbA1c;32;mmol/mol
+172;Week 4;07/06/2025;Glucose;5,5;mmol/L
+127;Week 4;11/07/2025;HbA1c;43;mmol/mol
+134;Week 12;08/08/2025;Total cholesterol;4,27;mmol/L
+153;Screening;02/08/2025;Glucose;4,5;mmol/L
+200;Screening;04/06/2025;HbA1c;33;mmol/mol
+161;Week 12;02/07/2025;Potassium;4,0;mmol/L
+164;Week 12;09/08/2025;Potassium;4,5;mmol/L
+184;Screening;15/08/2025;Glucose;6,6;mmol/L
+161;Week 4;07/05/2025;Creatinine;74;µmol/L
+186;Screening;18/05/2025;Creatinine;134;umol/L
+175;Week 4;23/08/2025;Potassium;4,0;mmol/L
+145;Week 12;02/07/2025;HbA1c;38;mmol/mol
+149;Week 12;10/01/2026;Creatinine;50;µmol/L
+105;Week 12;10/05/2025;Creatinine;58;µmol/L
+145;Screening;09/04/2025;HbA1c;30;mmol/mol
+102;Week 12;01/12/2025;Total cholesterol;4,87;mmol/L
+174;Screening;27/10/2025;Creatinine;87;µmol/L
+136;Week 4;04/08/2025;Total cholesterol;3,04;mmol/L
+178;Screening;05/10/2025;HbA1c;31;mmol/mol
+188;Screening;17/09/2025;Creatinine;62;µmol/L
+179;Screening;04/06/2025;Creatinine;58;µmol/L
+193;Week 12;19/08/2025;Potassium;4,3;mmol/L
+114;Screening;08/01/2025;Potassium;4,5;mmol/L
+101;Week 12;08/10/2025;Glucose;4,9;mmol/L
+117;Week 12;22/04/2025;HbA1c;50;mmol/mol
+200;Screening;04/06/2025;Creatinine;56;µmol/L
+158;Week 12;08/11/2025;HbA1c;23;mmol/mol
+137;Screening;13/09/2025;HbA1c;34;mmol/mol
+185;Screening;17/10/2025;Glucose;6,4;mmol/L
+144;Week 12;10/10/2025;HbA1c;51;mmol/mol
+171;Week 4;15/08/2025;Total cholesterol;5,92;mmol/L
+148;Screening;28/08/2025;Creatinine;67;µmol/L
+171;Week 12;10/10/2025;Glucose;4,9;mmol/L
+113;Screening;24/10/2025;HbA1c;42;mmol/mol
+200;Week 12;27/08/2025;Glucose;8,3;mmol/L
+137;Week 4;11/10/2025;HbA1c;45;mmol/mol
+101;Week 4;13/08/2025;Glucose;6,0;mmol/L
+150;Week 12;29/10/2025;Creatinine;67;µmol/L
+101;Week 4;13/08/2025;HbA1c;33;mmol/mol
+140;Screening;05/05/2025;Glucose;6,4;mmol/L
+170;Week 4;21/03/2025;HbA1c;34;mmol/mol
+186;Week 12;10/08/2025;HbA1c;28;mmol/mol
+172;Week 12;02/08/2025;Glucose;4,0;mmol/L
+132;Week 12;07/09/2025;Total cholesterol;4,43;mmol/L
+137;Week 4;11/10/2025;Glucose;4,8;mmol/L
+156;Week 12;02/10/2025;Glucose;4,9;mmol/L
+105;Screening;15/02/2025;Creatinine;92;µmol/L
+199;Screening;07/01/2025;Potassium;4,2;mmol/L
+140;Week 12;28/07/2025;Creatinine;98;µmol/L
+111;Week 4;19/05/2025;Glucose;5,5;mmol/L
+123;Week 12;27/10/2025;HbA1c;35;mmol/mol
+184;Week 4;12/09/2025;HbA1c;44;mmol/mol
+111;Screening;21/04/2025;Glucose;6,2;mmol/L
+115;Week 4;24/10/2025;Creatinine;78;µmol/L
+137;Week 12;06/12/2025;Potassium;4,0;mmol/L
+130;Screening;23/04/2025;Creatinine;57;µmol/L
+147;Week 12;03/05/2025;HbA1c;55;mmol/mol
+198;Screening;20/01/2025;Creatinine;65;µmol/L
+147;Screening;08/02/2025;Total cholesterol;5,33;mmol/L
+141;Week 4;15/10/2025;Potassium;4,6;mmol/L
+180;Week 12;16/01/2026;Creatinine;81;µmol/L
+144;Week 4;15/08/2025;Potassium;4,2;mmol/L
+126;Week 12;23/07/2025;Creatinine;86;µmol/L
+157;Screening;14/01/2025;Total cholesterol;4,47;mmol/L
+139;Week 4;23/02/2025;Potassium;3,8;mmol/L
+146;Screening;11/06/2025;Total cholesterol;5,28;mmol/L
+186;Screening;18/05/2025;Glucose;7,2;mmol/L
+142;Screening;12/04/2025;Total cholesterol;3,88;mmol/L
+140;Week 4;02/06/2025;Creatinine;119;µmol/L
+191;Screening;29/07/2025;Total cholesterol;4,79;mmol/L
+158;Week 4;13/09/2025;HbA1c;50;mmol/mol
+134;Week 4;13/06/2025;HbA1c;47;mmol/mol
+116;Screening;12/06/2025;Potassium;4,3;mmol/L
+171;Screening;18/07/2025;Potassium;4,0;mmol/L
+189;Week 4;07/07/2025;Total cholesterol;5,29;mmol/L
+101;Week 12;08/10/2025;HbA1c;36;mmol/mol
+111;Week 4;19/05/2025;Total cholesterol;5,09;mmol/L
+163;Screening;14/01/2025;Glucose;6,3;mmol/L
+196;Week 12;22/04/2025;Glucose;6,2;mmol/L
+110;Week 12;21/12/2025;Potassium;4,0;mmol/L
+117;Screening;28/01/2025;Creatinine;76;µmol/L
+106;Week 4;08/09/2025;Glucose;6,2;mmol/L
+131;Screening;06/01/2025;Creatinine;64;µmol/L
+162;Week 4;04/04/2025;Potassium;4,5;mmol/L
+164;Week 12;09/08/2025;HbA1c;40;mmol/mol
+138;Screening;12/06/2025;Potassium;4,2;mmol/L
+143;Week 12;29/09/2025;Potassium;4,2;mmol/L
+146;Week 12;03/09/2025;Glucose;4,5;mmol/L
+191;Week 4;26/08/2025;Creatinine;55;umol/L
+170;Week 4;21/03/2025;Creatinine;75;µmol/L
+163;Week 4;11/02/2025;Potassium;4,0;mmol/L
+128;Screening;25/02/2025;HbA1c;51;mmol/mol
+147;Week 4;08/03/2025;HbA1c;37;mmol/mol
+143;Week 4;04/08/2025;HbA1c;39;mmol/mol
+187;Week 12;07/06/2025;Total cholesterol;5,50;mmol/L
+105;Week 4;15/03/2025;Glucose;5,7;mmol/L
+190;Week 12;25/10/2025;Potassium;4,3;mmol/L
+169;Screening;09/08/2025;Creatinine;83;µmol/L
+193;Week 4;24/06/2025;Potassium;4,2;mmol/L
+167;Screening;20/10/2025;Potassium;4,7;mmol/L
+192;Week 4;08/10/2025;Creatinine;105;µmol/L
+125;Screening;12/06/2025;Creatinine;70;µmol/L
+139;Week 4;23/02/2025;Glucose;4,9;mmol/L
+111;Week 12;14/07/2025;Potassium;4,2;mmol/L
+110;Week 12;21/12/2025;Total cholesterol;3,65;mmol/L
+180;Week 12;16/01/2026;Glucose;7,3;mmol/L
+143;Week 12;29/09/2025;Creatinine;68;µmol/L
+125;Screening;12/06/2025;Glucose;4,8;mmol/L
+123;Screening;04/08/2025;Total cholesterol;5,48;mmol/L
+187;Screening;15/03/2025;Glucose;4,0;mmol/L
+173;Screening;31/01/2025;Potassium;4,3;mmol/L
+170;Week 4;21/03/2025;Total cholesterol;5,31;mmol/L
+195;Screening;07/03/2025;Glucose;4,9;mmol/L
+167;Screening;20/10/2025;Total cholesterol;4,14;mmol/L
+104;Screening;14/02/2025;Glucose;4,8;mmol/L
+111;Week 12;14/07/2025;HbA1c;35;mmol/mol
+139;Week 12;20/04/2025;Glucose;6,4;mmol/L
+183;Screening;02/04/2025;Total cholesterol;3,66;mmol/L
+172;Week 4;07/06/2025;Potassium;3,9;mmol/L
+146;Screening;11/06/2025;Potassium;4,8;mmol/L
+119;Week 4;06/07/2025;Creatinine;93;µmol/L
+193;Week 12;19/08/2025;Glucose;5,4;mmol/L
+139;Screening;26/01/2025;Potassium;4,4;mmol/L
+191;Week 12;21/10/2025;Creatinine;108;µmol/L
+116;Week 4;10/07/2025;Potassium;4,5;mmol/L
+160;Week 12;27/05/2025;Creatinine;99;µmol/L
+123;Week 12;27/10/2025;Potassium;3,8;mmol/L
+164;Screening;17/05/2025;Potassium;4,0;mmol/L
+144;Week 12;10/10/2025;Total cholesterol;4,98;mmol/L
+127;Week 12;05/09/2025;HbA1c;31;mmol/mol
+183;Week 4;30/04/2025;HbA1c;44;mmol/mol
+134;Week 4;13/06/2025;Total cholesterol;5,96;mmol/L
+164;Week 4;14/06/2025;HbA1c;46;mmol/mol
+130;Screening;23/04/2025;Total cholesterol;6,46;mmol/L
+130;Screening;23/04/2025;Potassium;4,4;mmol/L
+148;Screening;28/08/2025;Potassium;3,9;mmol/L
+104;Week 4;14/03/2025;Total cholesterol;5,60;mmol/L
+185;Screening;17/10/2025;HbA1c;41;mmol/mol
+183;Screening;02/04/2025;HbA1c;40;mmol/mol
+197;Screening;28/07/2025;Total cholesterol;4,66;mmol/L
+162;Screening;07/03/2025;Creatinine;80;µmol/L
+102;Week 12;01/12/2025;Glucose;3,8;mmol/L
+192;Screening;10/09/2025;HbA1c;44;mmol/mol
+173;Week 4;28/02/2025;Potassium;4,2;mmol/L
+149;Week 12;10/01/2026;HbA1c;35;mmol/mol
+150;Week 4;03/09/2025;HbA1c;34;mmol/mol
+193;Week 12;19/08/2025;Creatinine;103;µmol/L
+193;Week 4;24/06/2025;Total cholesterol;3,63;mmol/L
+144;Week 4;15/08/2025;Total cholesterol;4,18;mmol/L
+109;Week 12;11/05/2025;HbA1c;35;mmol/mol
+196;Screening;28/01/2025;Glucose;5,8;mmol/L
+151;Screening;07/02/2025;Glucose;5,6;mmol/L
+188;Week 4;15/10/2025;HbA1c;40;mmol/mol
+189;Week 4;07/07/2025;Creatinine;129;µmol/L
+156;Week 12;02/10/2025;HbA1c;42;mmol/mol
+141;Screening;17/09/2025;Glucose;6,2;mmol/L
+159;Week 4;13/02/2025;Creatinine;67;µmol/L
+171;Week 4;15/08/2025;Creatinine;85;µmol/L
+188;Week 12;10/12/2025;Glucose;7,0;mmol/L
+155;Week 12;11/01/2026;Creatinine;101;µmol/L
+132;Week 4;13/07/2025;Total cholesterol;5,01;mmol/L
+181;Screening;05/02/2025;HbA1c;37;mmol/mol
+135;Screening;19/10/2025;Creatinine;89;µmol/L
+132;Week 4;13/07/2025;Creatinine;92;µmol/L
+101;Week 4;13/08/2025;Creatinine;53;µmol/L
+180;Screening;24/10/2025;Creatinine;83;µmol/L
+133;Week 4;24/02/2025;Creatinine;68;µmol/L
+178;Week 4;02/11/2025;HbA1c;41;mmol/mol
+163;Week 4;11/02/2025;HbA1c;38;mmol/mol
+170;Screening;21/02/2025;Potassium;4,3;mmol/L
+131;Week 12;31/03/2025;HbA1c;33;mmol/mol
+127;Week 4;11/07/2025;Total cholesterol;6,08;mmol/L
+150;Week 4;03/09/2025;Total cholesterol;4,30;mmol/L
+118;Week 4;01/09/2025;Potassium;4,4;mmol/L
+108;Week 4;05/02/2025;Creatinine;71;µmol/L
+198;Week 4;17/02/2025;Creatinine;85;µmol/L
+109;Screening;16/02/2025;Glucose;6,1;mmol/L
+116;Screening;12/06/2025;Creatinine;85;µmol/L
+191;Week 12;21/10/2025;Potassium;4,0;mmol/L
+147;Week 4;08/03/2025;Glucose;4,6;mmol/L
+178;Week 12;28/12/2025;Glucose;7,4;mmol/L
+168;Screening;21/06/2025;Glucose;4,5;mmol/L
+144;Screening;18/07/2025;Potassium;3,7;mmol/L
+111;Week 4;19/05/2025;Potassium;3,8;mmol/L
+170;Week 12;16/05/2025;Creatinine;80;µmol/L
+107;Week 12;14/06/2025;Potassium;4,1;mmol/L
+102;Screening;08/09/2025;HbA1c;44;mmol/mol
+177;Week 4;08/10/2025;Creatinine;46;µmol/L
+172;Screening;10/05/2025;Total cholesterol;6,02;mmol/L
+188;Week 12;10/12/2025;Creatinine;106;µmol/L
+116;Week 4;10/07/2025;HbA1c;42;mmol/mol
+130;Week 4;21/05/2025;Total cholesterol;4,41;mmol/L
+125;Week 4;10/07/2025;HbA1c;27;mmol/mol
+157;Week 4;11/02/2025;Total cholesterol;5,24;mmol/L
+106;Week 12;03/11/2025;Creatinine;72;µmol/L
+131;Week 4;03/02/2025;HbA1c;42;mmol/mol
+158;Week 4;13/09/2025;Total cholesterol;4,62;mmol/L
+174;Week 12;19/01/2026;HbA1c;28;mmol/mol
+152;Screening;28/08/2025;Potassium;4,4;mmol/L
+135;Screening;19/10/2025;HbA1c;35;mmol/mol
+145;Week 4;07/05/2025;Glucose;5,7;mmol/L
+181;Week 12;30/04/2025;Potassium;4,3;mmol/L
+160;Screening;04/03/2025;Creatinine;61;µmol/L
+141;Screening;17/09/2025;Total cholesterol;4,47;mmol/L
+157;Week 4;11/02/2025;Creatinine;72;µmol/L
+175;Screening;26/07/2025;HbA1c;41;mmol/mol
+105;Screening;15/02/2025;Glucose;6,8;mmol/L
+198;Week 12;14/04/2025;Glucose;5,3;mmol/L
+154;Week 12;05/10/2025;Creatinine;84;µmol/L
+182;Week 12;28/10/2025;Creatinine;118;µmol/L
+104;Week 4;14/03/2025;Glucose;5,0;mmol/L
+181;Week 12;30/04/2025;HbA1c;46;mmol/mol
+113;Week 4;21/11/2025;Creatinine;67;µmol/L
+132;Week 12;07/09/2025;Potassium;4,5;mmol/L
+182;Week 4;02/09/2025;HbA1c;39;mmol/mol
+153;Week 12;25/10/2025;HbA1c;36;mmol/mol
+127;Week 4;11/07/2025;Creatinine;56;µmol/L
+128;Screening;25/02/2025;Creatinine;81;µmol/L
+158;Week 4;13/09/2025;Creatinine;55;µmol/L
+143;Screening;07/07/2025;Creatinine;83;µmol/L
+114;Week 4;05/02/2025;Glucose;6,1;mmol/L
+144;Screening;18/07/2025;Glucose;6,9;mmol/L
+128;Week 12;20/05/2025;Glucose;7,2;mmol/L
+142;Week 12;05/07/2025;HbA1c;35;mmol/mol
+140;Screening;05/05/2025;Creatinine;54;µmol/L
+172;Screening;10/05/2025;Creatinine;63;µmol/L
+131;Week 4;03/02/2025;Glucose;4,9;mmol/L
+160;Week 12;27/05/2025;Glucose;5,5;mmol/L
+193;Screening;27/05/2025;Creatinine;86;µmol/L
+142;Week 4;10/05/2025;Creatinine;75;µmol/L
+197;Week 4;25/08/2025;Potassium;4,4;mmol/L
+123;Week 12;27/10/2025;Total cholesterol;4,61;mmol/L
+140;Screening;05/05/2025;Potassium;4,3;mmol/L
+168;Screening;21/06/2025;Potassium;4,2;mmol/L
+137;Screening;13/09/2025;Potassium;4,2;mmol/L
+157;Screening;14/01/2025;Glucose;4,5;mmol/L
+112;Week 12;02/10/2025;Potassium;4,6;mmol/L
+182;Week 4;02/09/2025;Total cholesterol;4,21;mmol/L
+175;Week 4;23/08/2025;Glucose;5,9;mmol/L
+109;Week 4;16/03/2025;Potassium;3,9;mmol/L
+187;Week 4;12/04/2025;Total cholesterol;5,50;mmol/L
+112;Week 12;02/10/2025;HbA1c;39;mmol/mol
+168;Screening;21/06/2025;HbA1c;25;mmol/mol
+102;Week 4;06/10/2025;Creatinine;71;µmol/L
+107;Screening;22/03/2025;Glucose;6,4;mmol/L
+125;Screening;12/06/2025;Potassium;4,0;mmol/L
+175;Screening;26/07/2025;Potassium;3,6;mmol/L
+184;Week 4;12/09/2025;Potassium;4,7;mmol/L
+177;Week 12;03/12/2025;HbA1c;43;mmol/mol
+186;Screening;18/05/2025;Glucose;8,3;mmol/L
+155;Week 4;16/11/2025;Glucose;4,7;mmol/L
+152;Week 12;20/11/2025;Glucose;5,6;mmol/L
+165;Week 12;05/04/2025;Glucose;4,9;mmol/L
+117;Week 4;25/02/2025;Creatinine;66;µmol/L
+175;Week 12;18/10/2025;Total cholesterol;3,83;mmol/L
+130;Week 12;16/07/2025;Total cholesterol;3,70;mmol/L
+124;Week 4;16/09/2025;Total cholesterol;3,83;mmol/L
+155;Screening;19/10/2025;HbA1c;33;mmol/mol
+150;Screening;06/08/2025;Potassium;4,0;mmol/L
+168;Week 12;13/09/2025;Potassium;4,1;mmol/L
+179;Week 4;02/07/2025;HbA1c;28;mmol/mol
+178;Week 4;02/11/2025;Potassium;4,1;mmol/L
+198;Screening;20/01/2025;Total cholesterol;5,91;mmol/L
+174;Week 12;19/01/2026;Creatinine;90;µmol/L
+143;Screening;07/07/2025;Potassium;4,2;mmol/L
+156;Week 4;07/08/2025;Total cholesterol;4,66;mmol/L
+162;Week 12;30/05/2025;Creatinine;71;µmol/L
+122;Week 12;04/04/2025;Glucose;4,9;mmol/L
+185;Screening;17/10/2025;Creatinine;83;µmol/L
+113;Week 4;21/11/2025;Total cholesterol;3,29;mmol/L
+154;Week 12;05/10/2025;Potassium;3,8;mmol/L
+168;Week 12;13/09/2025;Total cholesterol;3,67;mmol/L
+176;Screening;05/10/2025;Creatinine;102;µmol/L
+141;Week 12;10/12/2025;HbA1c;30;mmol/mol
+174;Week 4;24/11/2025;HbA1c;36;mmol/mol
+169;Screening;09/08/2025;Potassium;4,2;mmol/L
+146;Screening;11/06/2025;Glucose;7,1;mmol/L
+187;Week 4;12/04/2025;Glucose;4,9;mmol/L
+114;Week 4;05/02/2025;Total cholesterol;4,72;mmol/L
+166;Week 4;03/10/2025;Creatinine;85;µmol/L
+162;Week 4;04/04/2025;HbA1c;44;mmol/mol
+198;Week 12;14/04/2025;HbA1c;42;mmol/mol
+181;Week 4;05/03/2025;Glucose;4,8;mmol/L
+192;Week 12;03/12/2025;Total cholesterol;3,86;mmol/L
+163;Screening;14/01/2025;Potassium;4,9;mmol/L
+120;Week 4;20/11/2025;Glucose;4,2;mmol/L
+165;Week 4;08/02/2025;Potassium;5,0;mmol/L
+195;Week 12;30/05/2025;Glucose;5,9;mmol/L
+145;Week 12;02/07/2025;Glucose;6,6;mmol/L
+126;Screening;30/04/2025;Creatinine;102;µmol/L
+122;Week 12;04/04/2025;HbA1c;43;mmol/mol
+136;Week 4;04/08/2025;Potassium;4,2;mmol/L
+147;Week 12;03/05/2025;Creatinine;78;µmol/L
+195;Screening;07/03/2025;Total cholesterol;5,80;mmol/L
+121;Week 12;23/07/2025;HbA1c;38;mmol/mol
+155;Week 12;11/01/2026;HbA1c;33;mmol/mol
+138;Screening;12/06/2025;Total cholesterol;4,49;mmol/L
+152;Screening;28/08/2025;Glucose;6,2;mmol/L
+121;Screening;30/04/2025;Glucose;4,8;mmol/L
+185;Week 12;09/01/2026;HbA1c;38;mmol/mol
+162;Week 12;30/05/2025;Glucose;5,4;mmol/L
+108;Week 4;05/02/2025;Potassium;4,3;mmol/L
+157;Week 4;11/02/2025;HbA1c;32;mmol/mol
+105;Week 12;10/05/2025;Glucose;4,4;mmol/L
+125;Week 12;04/09/2025;Creatinine;77;µmol/L
+124;Week 12;11/11/2025;Potassium;3,8;mmol/L
+143;Week 12;29/09/2025;Glucose;5,5;mmol/L
+120;Week 12;15/01/2026;Glucose;6,0;mmol/L
+179;Week 12;27/08/2025;Total cholesterol;4,99;mmol/L
+111;Week 4;19/05/2025;HbA1c;34;mmol/mol
+146;Week 4;09/07/2025;Potassium;3,8;mmol/L
+144;Week 4;15/08/2025;HbA1c;31;mmol/mol
+123;Screening;04/08/2025;Potassium;4,4;mmol/L
+151;Week 4;07/03/2025;Total cholesterol;4,72;mmol/L
+109;Week 4;16/03/2025;HbA1c;28;mmol/mol
+163;Screening;14/01/2025;Creatinine;73;µmol/L
+149;Week 4;15/11/2025;Potassium;3,5;mmol/L
+102;Week 4;06/10/2025;Potassium;3,8;mmol/L
+178;Week 12;28/12/2025;Creatinine;75;µmol/L
+149;Week 4;15/11/2025;Total cholesterol;4,14;mmol/L
+140;Week 12;28/07/2025;Total cholesterol;3,66;mmol/L
+130;Screening;23/04/2025;HbA1c;22;mmol/mol
+174;Screening;27/10/2025;Glucose;5,4;mmol/L
+128;Week 4;25/03/2025;Creatinine;59;µmol/L
+161;Screening;09/04/2025;Creatinine;112;µmol/L
+140;Week 4;02/06/2025;HbA1c;41;mmol/mol
+150;Screening;06/08/2025;Creatinine;82;µmol/L
+141;Week 12;10/12/2025;Potassium;3,7;mmol/L
+130;Week 12;16/07/2025;Creatinine;84;µmol/L
+156;Week 12;02/10/2025;Creatinine;98;µmol/L
+146;Screening;11/06/2025;Creatinine;100;µmol/L
+178;Screening;05/10/2025;Creatinine;98;µmol/L
+116;Week 12;04/09/2025;Creatinine;70;µmol/L
+187;Screening;15/03/2025;Creatinine;112;µmol/L
+176;Week 12;28/12/2025;HbA1c;40;mmol/mol
+134;Week 4;13/06/2025;Glucose;5,5;mmol/L
+194;Week 4;16/11/2025;Creatinine;91;µmol/L
+193;Screening;27/05/2025;Total cholesterol;5,64;mmol/L
+193;Screening;27/05/2025;HbA1c;49;mmol/mol
+154;Week 12;05/10/2025;HbA1c;52;mmol/mol
+103;Week 12;28/12/2025;Glucose;4,0;mmol/L
+148;Week 12;20/11/2025;HbA1c;52;mmol/mol
+172;Screening;10/05/2025;Potassium;4,4;mmol/L
+174;Screening;27/10/2025;Potassium;5,0;mmol/L
+182;Week 4;02/09/2025;Creatinine;68;µmol/L
+141;Week 4;15/10/2025;HbA1c;41;mmol/mol
+154;Week 4;10/08/2025;Total cholesterol;5,44;mmol/L
+131;Week 4;03/02/2025;Total cholesterol;5,56;mmol/L
+200;Week 12;27/08/2025;Potassium;4,2;mmol/L
+138;Week 4;10/07/2025;Potassium;3,9;mmol/L
+161;Screening;09/04/2025;Total cholesterol;5,76;mmol/L
+104;Screening;14/02/2025;HbA1c;44;mmol/mol
+171;Week 4;15/08/2025;Potassium;3,8;mmol/L
+185;Week 12;09/01/2026;Total cholesterol;4,47;mmol/L
+184;Week 12;07/11/2025;Total cholesterol;4,95;mmol/L
+134;Week 12;08/08/2025;Potassium;4,9;mmol/L
+133;Week 4;24/02/2025;Potassium;4,2;mmol/L
+132;Week 4;13/07/2025;HbA1c;49;mmol/mol
+139;Screening;26/01/2025;Glucose;7,4;mmol/L
+114;Week 12;02/04/2025;Total cholesterol;5,39;mmol/L
+194;Week 12;11/01/2026;Creatinine;59;µmol/L
+154;Week 4;10/08/2025;Potassium;4,5;mmol/L
+141;Screening;17/09/2025;HbA1c;37;mmol/mol
+148;Screening;28/08/2025;HbA1c;52;mmol/mol
+169;Week 4;06/09/2025;Total cholesterol;5,15;mmol/L
+113;Week 12;16/01/2026;Potassium;3,7;mmol/L
+186;Screening;18/05/2025;HbA1c;;mmol/mol
+132;Week 12;07/09/2025;HbA1c;34;mmol/mol
+131;Week 12;31/03/2025;Glucose;8,2;mmol/L
+175;Screening;26/07/2025;Glucose;4,6;mmol/L
+143;Week 4;04/08/2025;Glucose;4,2;mmol/L
+197;Week 12;20/10/2025;Total cholesterol;5,22;mmol/L
+169;Week 4;06/09/2025;HbA1c;43;mmol/mol
+192;Week 12;03/12/2025;Creatinine;94;µmol/L
+165;Week 12;05/04/2025;Total cholesterol;5,41;mmol/L
+190;Week 4;30/08/2025;Total cholesterol;5,33;mmol/L
+197;Screening;28/07/2025;Glucose;6,0;mmol/L
+157;Week 12;08/04/2025;Total cholesterol;6,30;mmol/L
+118;Screening;04/08/2025;Potassium;4,2;mmol/L
+173;Week 12;25/04/2025;Glucose;4,1;mmol/L
+105;Week 4;15/03/2025;Potassium;4,1;mmol/L
+135;Screening;19/10/2025;Total cholesterol;2,95;mmol/L
+145;Week 12;02/07/2025;Potassium;3,9;mmol/L
+134;Screening;16/05/2025;Glucose;4,9;mmol/L
+111;Week 4;19/05/2025;Creatinine;67;µmol/L
+199;Week 4;04/02/2025;Total cholesterol;5,37;mmol/L
+136;Screening;07/07/2025;Glucose;5,4;mmol/L
+196;Week 12;22/04/2025;Creatinine;71;µmol/L
+109;Screening;16/02/2025;Potassium;4,8;mmol/L
+131;Week 4;03/02/2025;Potassium;4,2;mmol/L
+111;Screening;21/04/2025;Potassium;4,1;mmol/L
+119;Screening;08/06/2025;Potassium;4,1;mmol/L
+191;Screening;29/07/2025;HbA1c;43;mmol/mol
+140;Week 4;02/06/2025;Potassium;4,5;mmol/L
+112;Week 4;07/08/2025;HbA1c;45;mmol/mol
+176;Screening;05/10/2025;HbA1c;40;mmol/mol
+108;Week 12;02/04/2025;HbA1c;46;mmol/mol
+148;Week 4;25/09/2025;Total cholesterol;5,50;mmol/L
+103;Screening;05/10/2025;Potassium;4,1;mmol/L
+199;Week 4;04/02/2025;Glucose;;mmol/L
+190;Week 12;25/10/2025;HbA1c;48;mmol/mol
+175;Week 4;23/08/2025;Total cholesterol;4,63;mmol/L
+116;Week 12;04/09/2025;Total cholesterol;5,31;mmol/L
+160;Screening;04/03/2025;Total cholesterol;4,94;mmol/L
+188;Week 4;15/10/2025;Total cholesterol;5,66;mmol/L
+128;Week 4;25/03/2025;Glucose;6,1;mmol/L
+123;Week 4;01/09/2025;Creatinine;101;µmol/L
+163;Screening;14/01/2025;Total cholesterol;5,49;mmol/L
+113;Week 4;21/11/2025;HbA1c;46;mmol/mol
+189;Week 12;01/09/2025;Creatinine;92;µmol/L
+123;Week 4;01/09/2025;Potassium;4,2;mmol/L
+129;Screening;20/05/2025;Creatinine;64;µmol/L
+125;Week 4;10/07/2025;Glucose;5,3;mmol/L
+153;Week 4;30/08/2025;Creatinine;106;µmol/L
+119;Week 12;31/08/2025;Potassium;3,8;mmol/L
+197;Week 12;20/10/2025;Potassium;4,6;mmol/L
+143;Week 4;04/08/2025;Potassium;4,6;mmol/L
+189;Week 4;07/07/2025;Glucose;6,3;mmol/L
+114;Week 4;05/02/2025;HbA1c;50;mmol/mol
+106;Week 4;08/09/2025;Potassium;3,8;mmol/L
+114;Screening;08/01/2025;HbA1c;25;mmol/mol
+173;Week 12;25/04/2025;Creatinine;89;µmol/L
+166;Week 4;03/10/2025;Potassium;4,1;mmol/L
+151;Week 4;07/03/2025;Potassium;3,9;mmol/L
+197;Week 12;20/10/2025;Creatinine;69;µmol/L
+150;Week 4;03/09/2025;Creatinine;93;µmol/L
+146;Week 12;03/09/2025;Creatinine;71;µmol/L
+192;Week 4;08/10/2025;Total cholesterol;4,97;mmol/L
+142;Week 4;10/05/2025;Glucose;5,4;mmol/L
+145;Week 12;02/07/2025;Creatinine;72;µmol/L
+150;Week 12;29/10/2025;HbA1c;37;mmol/mol
+155;Screening;19/10/2025;Glucose;5,0;mmol/L
+153;Screening;02/08/2025;Potassium;4,1;mmol/L
+105;Screening;15/02/2025;HbA1c;44;mmol/mol
+168;Week 4;19/07/2025;HbA1c;34;mmol/mol
+185;Week 12;09/01/2026;Glucose;5,0;mmol/L
+138;Week 4;10/07/2025;Total cholesterol;4,95;mmol/L
+179;Week 4;02/07/2025;Potassium;3,8;mmol/L
+127;Screening;13/06/2025;Glucose;4,2;mmol/L
+143;Screening;07/07/2025;Total cholesterol;4,63;mmol/L
+163;Week 4;11/02/2025;Glucose;7,4;mmol/L
+134;Screening;16/05/2025;Potassium;4,2;mmol/L
+107;Week 4;19/04/2025;Potassium;4,5;mmol/L
+109;Week 4;16/03/2025;Glucose;5,7;mmol/L
+144;Screening;18/07/2025;Creatinine;77;µmol/L
+102;Week 12;01/12/2025;HbA1c;42;mmol/mol
+171;Week 12;10/10/2025;HbA1c;44;mmol/mol
+191;Screening;29/07/2025;Potassium;4,0;mmol/L
+106;Screening;11/08/2025;Creatinine;94;µmol/L
+158;Week 12;08/11/2025;Glucose;5,3;mmol/L
+128;Week 12;20/05/2025;HbA1c;24;mmol/mol
+139;Week 4;23/02/2025;Creatinine;57;µmol/L
+156;Week 4;07/08/2025;Glucose;5,3;mmol/L
+103;Week 12;28/12/2025;Potassium;4,1;mmol/L
+136;Screening;07/07/2025;Creatinine;63;µmol/L
+155;Screening;19/10/2025;Creatinine;103;µmol/L
+182;Week 12;28/10/2025;Total cholesterol;4,58;mmol/L
+152;Week 12;20/11/2025;HbA1c;36;mmol/mol
+118;Week 4;01/09/2025;Glucose;4,8;mmol/L
+167;Week 12;12/01/2026;Total cholesterol;4,43;mmol/L
+175;Week 4;23/08/2025;Creatinine;108;µmol/L
+185;Week 4;14/11/2025;Total cholesterol;4,47;mmol/L
+132;Screening;15/06/2025;HbA1c;25;mmol/mol
+180;Screening;24/10/2025;Glucose;3,7;mmol/L
+129;Week 4;17/06/2025;Creatinine;99;µmol/L
+129;Week 12;12/08/2025;Creatinine;78;µmol/L
+108;Week 4;05/02/2025;Total cholesterol;3,55;mmol/L
+148;Week 12;20/11/2025;Glucose;5,5;mmol/L
+182;Week 12;28/10/2025;Potassium;4,5;mmol/L
+199;Week 4;04/02/2025;HbA1c;36;mmol/mol
+136;Week 12;29/09/2025;Glucose;6,5;mmol/L
+122;Week 4;07/02/2025;Glucose;4,7;mmol/L
+124;Screening;19/08/2025;Glucose;5,2;mmol/L
+115;Screening;26/09/2025;Creatinine;65;µmol/L
+147;Week 12;03/05/2025;Glucose;3,8;mmol/L
+183;Screening;02/04/2025;Potassium;3,7;mmol/L
+112;Week 12;02/10/2025;Total cholesterol;5,07;mmol/L
+194;Week 4;16/11/2025;Glucose;7,0;mmol/L
+150;Screening;06/08/2025;Glucose;5,9;mmol/L
+188;Week 12;10/12/2025;HbA1c;50;mmol/mol
+164;Week 12;09/08/2025;Creatinine;79;µmol/L
+117;Week 12;22/04/2025;Total cholesterol;4,46;mmol/L
+120;Screening;23/10/2025;HbA1c;33;mmol/mol
+173;Week 12;25/04/2025;Potassium;3,6;mmol/L
+145;Screening;09/04/2025;Potassium;4,3;mmol/L
+127;Screening;13/06/2025;HbA1c;41;mmol/mol
+121;Screening;30/04/2025;Creatinine;70;µmol/L
+113;Week 4;21/11/2025;Glucose;6,7;mmol/L
+196;Week 4;25/02/2025;Potassium;4,4;mmol/L
+115;Week 4;24/10/2025;HbA1c;52;mmol/mol
+147;Screening;08/02/2025;Creatinine;85;µmol/L
+137;Week 12;06/12/2025;Creatinine;71;µmol/L
+180;Week 4;21/11/2025;Creatinine;73;µmol/L
+106;Week 12;03/11/2025;Potassium;4,3;mmol/L
+142;Week 12;05/07/2025;Potassium;4,5;mmol/L
+146;Week 4;09/07/2025;Creatinine;71;µmol/L
+194;Week 4;16/11/2025;HbA1c;36;mmol/mol
+142;Week 4;10/05/2025;Potassium;4,3;mmol/L
+101;Week 12;08/10/2025;Total cholesterol;5,37;mmol/L
+103;Week 4;02/11/2025;Potassium;4,1;mmol/L
+106;Screening;11/08/2025;Glucose;4,7;mmol/L
+142;Screening;12/04/2025;Total cholesterol;3,37;mmol/L
+158;Week 4;13/09/2025;Potassium;4,0;mmol/L
+168;Week 4;19/07/2025;Glucose;5,8;mmol/L
+159;Week 4;13/02/2025;Total cholesterol;5,64;mmol/L
+180;Week 4;21/11/2025;HbA1c;32;mmol/mol
+151;Week 12;02/05/2025;Creatinine;137;µmol/L
+175;Week 12;18/10/2025;Creatinine;70;µmol/L
+162;Screening;07/03/2025;HbA1c;46;mmol/mol
+172;Screening;10/05/2025;Glucose;6,6;mmol/L
+166;Week 4;03/10/2025;Total cholesterol;4,98;mmol/L
+170;Screening;21/02/2025;HbA1c;28;mmol/mol
+188;Screening;17/09/2025;Potassium;4,5;mmol/L
+185;Week 4;14/11/2025;Creatinine;94;µmol/L
+159;Week 4;13/02/2025;HbA1c;48;mmol/mol
+118;Screening;04/08/2025;Total cholesterol;3,02;mmol/L
+102;Week 4;06/10/2025;Total cholesterol;6,02;mmol/L
+163;Week 4;11/02/2025;Total cholesterol;5,25;mmol/L
+178;Week 12;28/12/2025;Potassium;4,5;mmol/L
+112;Screening;10/07/2025;Total cholesterol;4,84;mmol/L
+176;Week 4;02/11/2025;Total cholesterol;5,59;mmol/L
+138;Week 12;04/09/2025;Glucose;5,0;mmol/L
+179;Screening;04/06/2025;Total cholesterol;5,22;mmol/L
+172;Week 4;07/06/2025;Creatinine;84;µmol/L
+162;Week 12;30/05/2025;HbA1c;32;mmol/mol
+180;Week 12;16/01/2026;HbA1c;47;mmol/mol
+127;Week 12;05/09/2025;Total cholesterol;4,72;mmol/L
+158;Screening;16/08/2025;Glucose;4,9;mmol/L
+141;Week 4;15/10/2025;Creatinine;69;µmol/L
+195;Screening;07/03/2025;Potassium;3,9;mmol/L
+184;Week 12;07/11/2025;Glucose;7,7;mmol/L
+161;Week 4;07/05/2025;Glucose;6,9;mmol/L
+102;Week 4;06/10/2025;Glucose;6,5;mmol/L
+178;Week 12;28/12/2025;HbA1c;33;mmol/mol
+159;Screening;16/01/2025;Total cholesterol;4,61;mmol/L
+163;Week 12;08/04/2025;Potassium;4,4;mmol/L
+167;Week 4;17/11/2025;Total cholesterol;4,95;mmol/L
+139;Week 12;20/04/2025;HbA1c;56;mmol/mol
+164;Screening;17/05/2025;Creatinine;132;µmol/L
+196;Screening;28/01/2025;Creatinine;84;µmol/L
+176;Week 12;28/12/2025;Potassium;3,9;mmol/L
+178;Week 4;02/11/2025;Total cholesterol;4,60;mmol/L
+121;Week 4;28/05/2025;Glucose;5,6;mmol/L
+108;Week 4;05/02/2025;Glucose;4,9;mmol/L
+175;Screening;26/07/2025;Total cholesterol;5,38;mmol/L
+143;Screening;07/07/2025;HbA1c;42;mmol/mol
+169;Week 12;01/11/2025;HbA1c;40;mmol/mol
+101;Screening;16/07/2025;Potassium;4,4;mmol/L
+133;Screening;27/01/2025;Glucose;3,6;mmol/L
+197;Week 4;25/08/2025;HbA1c;36;mmol/mol
+190;Screening;02/08/2025;HbA1c;34;mmol/mol
+110;Week 12;21/12/2025;HbA1c;29;mmol/mol
+113;Week 12;16/01/2026;HbA1c;50;mmol/mol
+149;Week 4;15/11/2025;HbA1c;45;mmol/mol
+165;Screening;11/01/2025;Potassium;4,4;mmol/L
+160;Week 12;27/05/2025;Total cholesterol;4,14;mmol/L
+152;Week 12;20/11/2025;Potassium;4,0;mmol/L
+115;Screening;26/09/2025;Potassium;4,7;mmol/L
+115;Screening;26/09/2025;HbA1c;40;mmol/mol
+119;Screening;08/06/2025;Total cholesterol;6,15;mmol/L
+179;Screening;04/06/2025;HbA1c;35;mmol/mol
+161;Screening;09/04/2025;Potassium;4,3;mmol/L
+120;Screening;23/10/2025;Creatinine;103;µmol/L
+120;Week 12;15/01/2026;Potassium;3,9;mmol/L
+129;Week 4;17/06/2025;Glucose;4,7;mmol/L
+172;Screening;10/05/2025;HbA1c;49;mmol/mol
+197;Week 12;20/10/2025;Glucose;5,9;mmol/L
+129;Screening;20/05/2025;Glucose;5,7;mmol/L
+107;Week 12;14/06/2025;Creatinine;120;µmol/L
+165;Week 4;08/02/2025;Glucose;3,4;mmol/L
+174;Screening;27/10/2025;HbA1c;40;mmol/mol
+192;Week 12;03/12/2025;Potassium;3,6;mmol/L
+148;Week 12;20/11/2025;Potassium;4,1;mmol/L
+194;Screening;19/10/2025;Glucose;3,7;mmol/L
+168;Week 4;19/07/2025;Creatinine;87;µmol/L
+144;Week 4;15/08/2025;Glucose;4,8;mmol/L
+107;Screening;22/03/2025;Total cholesterol;4,76;mmol/L
+166;Week 12;28/11/2025;HbA1c;27;mmol/mol
+160;Week 4;01/04/2025;HbA1c;41;mmol/mol
+173;Week 4;28/02/2025;Glucose;4,7;mmol/L
+138;Week 12;04/09/2025;HbA1c;44;mmol/mol
+198;Screening;20/01/2025;Potassium;4,3;mmol/L
+169;Week 4;06/09/2025;Potassium;4,5;mmol/L
+186;Week 4;15/06/2025;Total cholesterol;5,99;mmol/L
+135;Week 4;16/11/2025;Potassium;3,4;mmol/L
+122;Week 12;04/04/2025;Total cholesterol;4,53;mmol/L
+184;Screening;15/08/2025;HbA1c;38;mmol/mol
+117;Week 4;25/02/2025;Potassium;4,6;mmol/L
+103;Screening;05/10/2025;HbA1c;44;mmol/mol
+115;Week 12;19/12/2025;Total cholesterol;4,86;mmol/L
+181;Week 4;05/03/2025;Creatinine;69;µmol/L
+141;Screening;17/09/2025;Creatinine;71;umol/L
+162;Week 4;04/04/2025;Total cholesterol;5,46;mmol/L
+180;Week 12;16/01/2026;Total cholesterol;5,89;mmol/L
+129;Screening;20/05/2025;Potassium;4,9;mmol/L
+136;Screening;07/07/2025;Total cholesterol;5,23;mmol/L
+135;Week 4;16/11/2025;Creatinine;103;µmol/L
+115;Week 12;19/12/2025;Glucose;4,9;mmol/L
+109;Week 12;11/05/2025;Glucose;5,7;mmol/L
+192;Week 4;08/10/2025;Glucose;3,8;mmol/L
+115;Week 12;19/12/2025;Creatinine;91;µmol/L
+149;Screening;18/10/2025;HbA1c;29;mmol/mol
+102;Screening;08/09/2025;Total cholesterol;4,83;mmol/L
+147;Screening;08/02/2025;HbA1c;42;mmol/mol
+153;Week 12;25/10/2025;Total cholesterol;4,76;mmol/L
+116;Week 4;10/07/2025;Total cholesterol;4,92;mmol/L
+174;Week 4;24/11/2025;Total cholesterol;3,59;mmol/L
+153;Week 4;30/08/2025;HbA1c;39;mmol/mol
+118;Week 12;27/10/2025;Total cholesterol;4,40;mmol/L
+121;Week 12;23/07/2025;Total cholesterol;5,13;mmol/L
+179;Week 4;02/07/2025;Glucose;4,8;mmol/L
+120;Week 4;20/11/2025;Creatinine;90;µmol/L
+142;Screening;12/04/2025;HbA1c;41;mmol/mol
+180;Week 4;21/11/2025;Glucose;4,8;mmol/L
+114;Week 4;05/02/2025;Creatinine;52;µmol/L
+121;Week 4;28/05/2025;Potassium;4,5;mmol/L
+141;Week 4;15/10/2025;Total cholesterol;5,08;mmol/L
+199;Screening;07/01/2025;Glucose;5,9;mmol/L
+122;Week 4;07/02/2025;Potassium;4,1;mmol/L
+133;Week 12;21/04/2025;Potassium;4,7;mmol/L
+116;Week 12;04/09/2025;HbA1c;27;mmol/mol
+172;Week 12;02/08/2025;Creatinine;97;µmol/L
+159;Screening;16/01/2025;Potassium;4,1;mmol/L
+186;Week 4;15/06/2025;Glucose;6,4;mmol/L
+189;Screening;09/06/2025;Total cholesterol;3,37;mmol/L
+177;Week 4;08/10/2025;Glucose;5,5;mmol/L
+105;Week 12;10/05/2025;HbA1c;31;mmol/mol
+157;Screening;14/01/2025;Creatinine;65;µmol/L
+173;Week 4;28/02/2025;HbA1c;37;mmol/mol
+154;Week 12;05/10/2025;Total cholesterol;4,40;mmol/L
+115;Week 4;24/10/2025;Total cholesterol;4,49;mmol/L
+170;Week 12;16/05/2025;Potassium;4,2;mmol/L
+108;Week 4;05/02/2025;HbA1c;34;mmol/mol
+147;Week 4;08/03/2025;Total cholesterol;4,09;mmol/L
+168;Week 4;19/07/2025;Total cholesterol;5,48;mmol/L
+127;Screening;13/06/2025;Total cholesterol;3,98;mmol/L
+147;Week 4;08/03/2025;Potassium;4,2;mmol/L
+194;Week 4;16/11/2025;Total cholesterol;3,79;mmol/L
+166;Screening;05/09/2025;Potassium;4,5;mmol/L
+134;Week 4;13/06/2025;Potassium;3,7;mmol/L
+190;Week 4;30/08/2025;Potassium;4,7;mmol/L
+153;Screening;02/08/2025;Total cholesterol;5,12;mmol/L
+159;Week 12;10/04/2025;HbA1c;48;mmol/mol
+122;Week 12;04/04/2025;Creatinine;144;µmol/L
+127;Week 12;05/09/2025;Glucose;4,7;mmol/L
+138;Week 4;10/07/2025;Glucose;4,7;mmol/L
+156;Week 12;02/10/2025;Potassium;4,0;mmol/L
+172;Week 4;07/06/2025;HbA1c;22;mmol/mol
+195;Week 12;30/05/2025;Potassium;3,6;mmol/L
+109;Week 4;16/03/2025;Creatinine;113;µmol/L
+166;Week 4;03/10/2025;HbA1c;34;mmol/mol
+197;Screening;28/07/2025;Creatinine;79;µmol/L
+106;Screening;11/08/2025;Total cholesterol;4,86;mmol/L
+119;Week 4;06/07/2025;Total cholesterol;4,29;mmol/L
+198;Week 4;17/02/2025;Glucose;5,6;mmol/L
+192;Screening;10/09/2025;Potassium;4,2;mmol/L
+162;Week 12;30/05/2025;Total cholesterol;4,68;mmol/L
+149;Screening;18/10/2025;Creatinine;78;µmol/L
+189;Week 4;07/07/2025;Potassium;3,3;mmol/L
+190;Week 12;25/10/2025;Creatinine;70;µmol/L
+165;Screening;11/01/2025;Creatinine;90;umol/L
+103;Screening;05/10/2025;Glucose;4,8;mmol/L
+185;Week 12;09/01/2026;Creatinine;86;µmol/L
+135;Week 4;16/11/2025;Total cholesterol;3,23;mmol/L
+165;Week 4;08/02/2025;Creatinine;84;µmol/L
+107;Screening;22/03/2025;HbA1c;31;mmol/mol
+189;Screening;09/06/2025;Potassium;4,6;mmol/L
+183;Week 12;25/06/2025;Glucose;5,3;mmol/L
+184;Screening;15/08/2025;Creatinine;105;µmol/L
+102;Screening;08/09/2025;Glucose;5,4;mmol/L
+122;Week 4;07/02/2025;Total cholesterol;5,94;mmol/L
+105;Week 4;15/03/2025;HbA1c;41;mmol/mol
+112;Screening;10/07/2025;Creatinine;86;µmol/L
+199;Week 12;01/04/2025;Creatinine;69;umol/L
+156;Week 4;07/08/2025;Creatinine;102;µmol/L
+200;Week 4;02/07/2025;HbA1c;28;mmol/mol
+131;Week 12;31/03/2025;Potassium;3,9;mmol/L
+141;Week 12;10/12/2025;Total cholesterol;6,97;mmol/L
+173;Screening;31/01/2025;Creatinine;74;µmol/L
+166;Week 12;28/11/2025;Total cholesterol;3,79;mmol/L
+194;Week 12;11/01/2026;Total cholesterol;4,70;mmol/L
+155;Screening;19/10/2025;Potassium;4,4;mmol/L
+122;Screening;10/01/2025;Total cholesterol;4,96;mmol/L
+182;Week 12;28/10/2025;HbA1c;43;mmol/mol
+111;Week 12;14/07/2025;Creatinine;89;µmol/L
+137;Week 12;06/12/2025;Total cholesterol;3,95;mmol/L
+151;Week 4;07/03/2025;Glucose;5,2;mmol/L
+134;Screening;16/05/2025;Creatinine;99;µmol/L
+157;Week 12;08/04/2025;HbA1c;44;mmol/mol
+164;Week 12;09/08/2025;Total cholesterol;4,31;mmol/L
+108;Week 12;02/04/2025;Creatinine;62;µmol/L
+134;Week 12;08/08/2025;HbA1c;39;mmol/mol
+117;Week 12;22/04/2025;Glucose;6,4;mmol/L
+138;Screening;12/06/2025;Glucose;5,3;mmol/L
+134;Week 12;08/08/2025;Glucose;8,9;mmol/L
+152;Screening;28/08/2025;Creatinine;126;µmol/L
+194;Week 12;11/01/2026;HbA1c;53;mmol/mol
+143;Week 4;04/08/2025;Total cholesterol;6,47;mmol/L
+164;Week 4;14/06/2025;Potassium;4,6;mmol/L
+142;Screening;12/04/2025;Creatinine;50;µmol/L
+138;Week 4;10/07/2025;HbA1c;34;mmol/mol
+136;Week 4;04/08/2025;HbA1c;34;mmol/mol
+187;Week 4;12/04/2025;Creatinine;55;µmol/L
+105;Screening;15/02/2025;Potassium;3,8;mmol/L
+154;Week 12;05/10/2025;Glucose;5,8;mmol/L
+110;Screening;28/09/2025;Creatinine;73;µmol/L
+118;Screening;04/08/2025;HbA1c;35;mmol/mol
+141;Week 12;10/12/2025;Glucose;5,4;mmol/L
+104;Week 12;09/05/2025;Total cholesterol;4,49;mmol/L
+123;Week 12;27/10/2025;Glucose;5,3;mmol/L
+159;Screening;16/01/2025;HbA1c;30;mmol/mol
+181;Screening;05/02/2025;Creatinine;62;µmol/L
+105;Week 4;15/03/2025;Total cholesterol;5,50;mmol/L
+108;Screening;08/01/2025;Total cholesterol;5,32;mmol/L
+169;Week 12;01/11/2025;Potassium;4,5;mmol/L
+144;Week 12;10/10/2025;Creatinine;90;µmol/L
+180;Screening;24/10/2025;Potassium;4,4;mmol/L
+133;Screening;27/01/2025;Potassium;3,7;mmol/L
+112;Week 12;02/10/2025;Glucose;7,2;mmol/L
+113;Screening;24/10/2025;Creatinine;140;µmol/L
+155;Screening;19/10/2025;HbA1c;38;mmol/mol
+162;Screening;07/03/2025;Potassium;4,0;mmol/L
+189;Week 12;01/09/2025;Potassium;4,4;mmol/L
+121;Screening;30/04/2025;HbA1c;40;mmol/mol
+135;Screening;19/10/2025;Potassium;4,0;mmol/L
+126;Week 4;28/05/2025;HbA1c;30;mmol/mol
+142;Week 12;05/07/2025;Glucose;5,3;mmol/L
+147;Screening;08/02/2025;Potassium;4,4;mmol/L
+170;Week 12;16/05/2025;Total cholesterol;4,74;mmol/L
+180;Week 4;21/11/2025;Potassium;3,6;mmol/L
+181;Screening;05/02/2025;Glucose;4,4;mmol/L
+132;Week 12;07/09/2025;Creatinine;56;µmol/L
+139;Screening;26/01/2025;Total cholesterol;3,51;mmol/L
+132;Week 4;13/07/2025;Glucose;5,3;mmol/L
+180;Screening;24/10/2025;Total cholesterol;5,30;mmol/L
+152;Week 4;25/09/2025;HbA1c;48;mmol/mol
+124;Week 12;11/11/2025;Total cholesterol;4,88;mmol/L
+180;Screening;24/10/2025;HbA1c;46;mmol/mol
+101;Week 12;08/10/2025;Potassium;4,9;mmol/L
+116;Week 4;10/07/2025;Creatinine;76;µmol/L
+165;Week 12;05/04/2025;Potassium;4,0;mmol/L
+125;Week 4;10/07/2025;Potassium;4,8;mmol/L
+167;Week 4;17/11/2025;HbA1c;41;mmol/mol
+190;Screening;02/08/2025;Potassium;4,3;mmol/L
+108;Screening;08/01/2025;Glucose;5,0;mmol/L
+195;Week 12;30/05/2025;Total cholesterol;5,73;mmol/L
+156;Week 4;07/08/2025;Potassium;3,6;mmol/L
+109;Screening;16/02/2025;Creatinine;94;µmol/L
+196;Week 12;22/04/2025;HbA1c;29;mmol/mol
+127;Week 12;05/09/2025;Potassium;4,1;mmol/L
+122;Week 12;04/04/2025;Potassium;4,4;mmol/L
+107;Week 12;14/06/2025;Glucose;7,5;mmol/L
+187;Week 12;07/06/2025;HbA1c;46;mmol/mol
+113;Week 4;21/11/2025;Potassium;4,2;mmol/L
+124;Week 12;11/11/2025;Glucose;6,5;mmol/L
+142;Week 4;10/05/2025;Total cholesterol;6,31;mmol/L
+157;Week 12;08/04/2025;Potassium;4,0;mmol/L
+156;Screening;10/07/2025;Creatinine;60;µmol/L
+154;Screening;13/07/2025;Potassium;4,1;mmol/L
+199;Week 12;01/04/2025;HbA1c;29;mmol/mol
+192;Screening;10/09/2025;Total cholesterol;6,17;mmol/L
+146;Week 12;03/09/2025;HbA1c;56;mmol/mol
+170;Screening;21/02/2025;Total cholesterol;5,03;mmol/L
+182;Week 4;02/09/2025;Glucose;6,3;mmol/L
+146;Week 12;03/09/2025;Potassium;3,7;mmol/L
+146;Week 4;09/07/2025;Total cholesterol;5,32;mmol/L
+110;Week 4;26/10/2025;Glucose;4,7;mmol/L
+198;Week 12;14/04/2025;Potassium;4,4;mmol/L
+158;Week 4;13/09/2025;Glucose;5,5;mmol/L
+122;Screening;10/01/2025;HbA1c;22;mmol/mol
+161;Week 4;07/05/2025;Total cholesterol;4,27;mmol/L
+182;Screening;05/08/2025;Potassium;4,0;mmol/L
+186;Week 4;15/06/2025;HbA1c;41;mmol/mol
+145;Screening;09/04/2025;Glucose;4,8;mmol/L
+191;Screening;29/07/2025;Creatinine;52;µmol/L
+158;Week 12;08/11/2025;Potassium;4,1;mmol/L
+129;Week 12;12/08/2025;Total cholesterol;4,80;mmol/L
+179;Week 4;02/07/2025;Total cholesterol;6,02;mmol/L
+152;Screening;28/08/2025;HbA1c;38;mmol/mol
+153;Screening;02/08/2025;HbA1c;48;mmol/mol
+169;Week 12;01/11/2025;Glucose;7,0;mmol/L
+186;Screening;18/05/2025;Total cholesterol;;mmol/L
+150;Week 4;03/09/2025;Glucose;6,5;mmol/L
+139;Week 12;20/04/2025;Potassium;4,4;mmol/L
+167;Screening;20/10/2025;Glucose;6,7;mmol/L
+173;Week 4;28/02/2025;Total cholesterol;4,70;mmol/L
+200;Week 12;27/08/2025;Total cholesterol;5,54;mmol/L
+177;Screening;10/09/2025;Glucose;5,0;mmol/L
+119;Screening;08/06/2025;HbA1c;39;mmol/mol
+161;Week 4;07/05/2025;Potassium;4,6;mmol/L
+139;Week 4;23/02/2025;HbA1c;38;mmol/mol
+161;Week 12;02/07/2025;Total cholesterol;5,75;mmol/L
+173;Week 4;28/02/2025;Creatinine;68;µmol/L
+189;Screening;09/06/2025;HbA1c;26;mmol/mol
+133;Week 12;21/04/2025;Glucose;4,9;mmol/L
+188;Week 12;10/12/2025;Total cholesterol;5,26;mmol/L
+162;Screening;07/03/2025;Total cholesterol;6,21;mmol/L
+104;Screening;14/02/2025;Total cholesterol;4,46;mmol/L
+106;Week 4;08/09/2025;Creatinine;88;µmol/L
+163;Week 12;08/04/2025;Total cholesterol;5,14;mmol/L
+164;Week 4;14/06/2025;Creatinine;83;µmol/L
+120;Screening;23/10/2025;Total cholesterol;5,27;mmol/L
+180;Week 12;16/01/2026;Potassium;3,8;mmol/L
+151;Screening;07/02/2025;Total cholesterol;3,31;mmol/L
+159;Week 12;10/04/2025;Glucose;3,6;mmol/L
+106;Screening;11/08/2025;Potassium;4,3;mmol/L
+125;Week 4;10/07/2025;Total cholesterol;4,01;mmol/L
+187;Screening;15/03/2025;Potassium;4,3;mmol/L
+186;Week 4;15/06/2025;Potassium;4,7;mmol/L
+104;Screening;14/02/2025;Potassium;4,6;mmol/L
+112;Screening;10/07/2025;Glucose;7,9;mmol/L
+128;Week 12;20/05/2025;Creatinine;134;µmol/L
+189;Screening;09/06/2025;Creatinine;75;µmol/L
+177;Screening;10/09/2025;Potassium;3,5;mmol/L
+118;Screening;04/08/2025;Glucose;5,3;mmol/L
+101;Screening;16/07/2025;Creatinine;96;µmol/L
+175;Screening;26/07/2025;Creatinine;62;µmol/L
+123;Week 4;01/09/2025;HbA1c;33;mmol/mol
+181;Week 12;30/04/2025;Total cholesterol;5,86;mmol/L
+129;Week 12;12/08/2025;Glucose;6,2;mmol/L
+181;Screening;05/02/2025;Total cholesterol;5,95;mmol/L
+190;Screening;02/08/2025;Glucose;4,7;mmol/L
+114;Week 12;02/04/2025;HbA1c;37;mmol/mol
+184;Week 12;07/11/2025;HbA1c;48;mmol/mol
+142;Screening;12/04/2025;Potassium;4,4;mmol/L
+176;Screening;05/10/2025;Total cholesterol;5,11;mmol/L
+150;Week 12;29/10/2025;Glucose;4,7;mmol/L
+112;Week 4;07/08/2025;Total cholesterol;5,72;mmol/L
+126;Week 4;28/05/2025;Glucose;4,7;mmol/L
+185;Week 4;14/11/2025;Glucose;5,2;mmol/L
+178;Week 4;02/11/2025;Glucose;4,3;mmol/L
+177;Screening;10/09/2025;Creatinine;52;µmol/L
+150;Week 12;29/10/2025;Potassium;3,9;mmol/L
+190;Screening;02/08/2025;Total cholesterol;5,20;mmol/L
+177;Week 4;08/10/2025;Potassium;4,0;mmol/L
+153;Week 4;30/08/2025;Total cholesterol;5,18;mmol/L
+160;Week 4;01/04/2025;Glucose;6,7;mmol/L
+146;Week 4;09/07/2025;HbA1c;40;mmol/mol
+153;Week 12;25/10/2025;Glucose;5,7;mmol/L
+148;Week 12;20/11/2025;Creatinine;51;µmol/L
+113;Screening;24/10/2025;Glucose;6,7;mmol/L
+190;Week 12;25/10/2025;Total cholesterol;5,47;mmol/L
+105;Week 12;10/05/2025;Total cholesterol;6,35;mmol/L
+120;Week 4;20/11/2025;Potassium;4,0;mmol/L
+123;Screening;04/08/2025;Glucose;6,9;mmol/L
+135;Week 4;16/11/2025;HbA1c;47;mmol/mol
+188;Screening;17/09/2025;HbA1c;28;mmol/mol
+133;Screening;27/01/2025;Creatinine;41;µmol/L
+151;Screening;07/02/2025;Potassium;3,6;mmol/L
+146;Week 12;03/09/2025;Total cholesterol;4,26;mmol/L
+124;Screening;19/08/2025;Total cholesterol;4,91;mmol/L
+155;Week 4;16/11/2025;Total cholesterol;5,02;mmol/L
+128;Screening;25/02/2025;Potassium;4,2;mmol/L
+123;Screening;04/08/2025;HbA1c;38;mmol/mol
+170;Week 12;16/05/2025;HbA1c;57;mmol/mol
+156;Week 12;02/10/2025;Total cholesterol;4,58;mmol/L
+190;Week 4;30/08/2025;Glucose;6,2;mmol/L
+155;Screening;19/10/2025;Total cholesterol;4,66;mmol/L
+118;Week 12;27/10/2025;Creatinine;70;µmol/L
+127;Screening;13/06/2025;Creatinine;75;µmol/L
+112;Week 4;07/08/2025;Potassium;3,7;mmol/L
+127;Week 4;11/07/2025;Potassium;4,1;mmol/L
+137;Screening;13/09/2025;Total cholesterol;3,22;mmol/L
+124;Screening;19/08/2025;HbA1c;39;mmol/mol
+174;Week 12;19/01/2026;Glucose;5,6;mmol/L
+186;Week 4;15/06/2025;Creatinine;78;umol/L
+196;Week 12;22/04/2025;Total cholesterol;4,94;mmol/L
+174;Week 4;24/11/2025;Potassium;4,2;mmol/L
+200;Week 4;02/07/2025;Total cholesterol;2,92;mmol/L
+169;Screening;09/08/2025;Glucose;5,5;mmol/L
+140;Screening;05/05/2025;HbA1c;26;mmol/mol
+169;Screening;09/08/2025;HbA1c;42;mmol/mol
+149;Week 12;10/01/2026;Glucose;7,1;mmol/L
+129;Week 12;12/08/2025;Potassium;4,3;mmol/L
+185;Week 12;09/01/2026;Potassium;4,3;mmol/L
+114;Week 12;02/04/2025;Creatinine;79;µmol/L
+128;Week 4;25/03/2025;Potassium;4,3;mmol/L
+185;Week 4;14/11/2025;Potassium;3,7;mmol/L
+182;Screening;05/08/2025;Glucose;5,3;mmol/L
+192;Week 4;08/10/2025;Potassium;4,5;mmol/L
+113;Week 12;16/01/2026;Glucose;6,0;mmol/L
+186;Week 12;10/08/2025;Potassium;4,4;mmol/L
+117;Screening;28/01/2025;Potassium;4,3;mmol/L
+;Week 4;05/03/2025;Total cholesterol;6,08;mmol/L
+200;Screening;04/06/2025;Total cholesterol;4,19;mmol/L
+133;Week 12;21/04/2025;Creatinine;62;µmol/L
+168;Week 4;19/07/2025;Potassium;4,4;mmol/L
+131;Screening;06/01/2025;Glucose;7,1;mmol/L
+137;Week 12;06/12/2025;HbA1c;43;mmol/mol
+130;Screening;23/04/2025;Glucose;5,8;mmol/L
+109;Week 4;16/03/2025;Total cholesterol;4,34;mmol/L
+147;Week 12;03/05/2025;Total cholesterol;5,78;mmol/L
+179;Week 12;27/08/2025;Potassium;3,9;mmol/L
+187;Screening;15/03/2025;Total cholesterol;5,71;mmol/L
+198;Week 4;17/02/2025;Total cholesterol;4,70;mmol/L
+160;Week 12;27/05/2025;Potassium;3,7;mmol/L
+131;Screening;06/01/2025;Total cholesterol;4,96;mmol/L
+153;Week 12;25/10/2025;Potassium;4,1;mmol/L
+135;Week 12;11/01/2026;Glucose;5,4;mmol/L
+184;Screening;15/08/2025;Total cholesterol;5,41;mmol/L
+144;Week 4;15/08/2025;Creatinine;96;µmol/L
+174;Week 4;24/11/2025;Creatinine;61;µmol/L
+157;Week 12;08/04/2025;Glucose;6,0;mmol/L
+114;Week 12;02/04/2025;Potassium;3,7;mmol/L
+151;Week 4;07/03/2025;HbA1c;36;mmol/mol
+166;Screening;05/09/2025;Glucose;5,8;mmol/L
+178;Screening;05/10/2025;Glucose;7,1;mmol/L
+171;Week 4;15/08/2025;HbA1c;58;mmol/mol
+195;Week 12;30/05/2025;Creatinine;95;µmol/L
+170;Screening;21/02/2025;Creatinine;70;µmol/L
+101;Screening;16/07/2025;HbA1c;42;mmol/mol
+191;Week 12;21/10/2025;Glucose;4,1;mmol/L
+152;Week 12;20/11/2025;Creatinine;109;µmol/L
+164;Week 4;14/06/2025;Glucose;5,6;mmol/L
+118;Week 12;27/10/2025;Potassium;4,0;mmol/L
+126;Week 12;23/07/2025;HbA1c;48;mmol/mol
+200;Screening;04/06/2025;Potassium;4,6;mmol/L
+138;Screening;12/06/2025;HbA1c;57;mmol/mol
+103;Week 4;02/11/2025;HbA1c;46;mmol/mol
+104;Week 12;09/05/2025;HbA1c;39;mmol/mol
+159;Week 4;13/02/2025;Glucose;7,2;mmol/L
+109;Week 12;11/05/2025;Potassium;4,5;mmol/L
+156;Screening;10/07/2025;Glucose;4,5;mmol/L
+144;Screening;18/07/2025;HbA1c;39;mmol/mol
+171;Screening;18/07/2025;Glucose;6,3;mmol/L
+168;Week 12;13/09/2025;Glucose;5,3;mmol/L
+172;Week 12;02/08/2025;HbA1c;37;mmol/mol
+197;Week 4;25/08/2025;Creatinine;67;µmol/L
+151;Screening;07/02/2025;HbA1c;38;mmol/mol
+158;Week 12;08/11/2025;Creatinine;66;µmol/L
+155;Week 12;11/01/2026;Total cholesterol;5,33;mmol/L
+157;Screening;14/01/2025;Potassium;3,4;mmol/L
+127;Week 4;11/07/2025;Glucose;5,3;mmol/L
+176;Week 4;02/11/2025;HbA1c;51;mmol/mol
+102;Week 4;06/10/2025;HbA1c;39;mmol/mol
+195;Screening;07/03/2025;HbA1c;55;mmol/mol
+107;Week 4;19/04/2025;Glucose;6,0;mmol/L
+197;Week 4;25/08/2025;Total cholesterol;3,98;mmol/L
+164;Screening;17/05/2025;HbA1c;35;mmol/mol
+195;Week 4;04/04/2025;Glucose;5,4;mmol/L
+191;Week 4;26/08/2025;HbA1c;40;mmol/mol
+133;Screening;27/01/2025;HbA1c;28;mmol/mol
+197;Screening;28/07/2025;HbA1c;43;mmol/mol
+136;Week 12;29/09/2025;Potassium;4,4;mmol/L
+126;Screening;30/04/2025;Glucose;3,5;mmol/L
+126;Screening;30/04/2025;Potassium;4,5;mmol/L
+181;Week 12;30/04/2025;Glucose;6,2;mmol/L
+160;Week 4;01/04/2025;Total cholesterol;5,86;mmol/L
+135;Screening;19/10/2025;Glucose;4,7;mmol/L
+103;Week 12;28/12/2025;HbA1c;47;mmol/mol
+106;Screening;11/08/2025;HbA1c;22;mmol/mol
+176;Screening;05/10/2025;Glucose;5,5;mmol/L
+167;Week 12;12/01/2026;Potassium;4,4;mmol/L
+104;Week 12;09/05/2025;Glucose;5,9;mmol/L
+137;Week 4;11/10/2025;Total cholesterol;6,94;mmol/L
+188;Screening;17/09/2025;Total cholesterol;4,95;mmol/L
+170;Week 12;16/05/2025;Glucose;7,1;mmol/L
+195;Week 12;30/05/2025;HbA1c;35;mmol/mol
+110;Screening;28/09/2025;Potassium;4,4;mmol/L
+189;Week 12;01/09/2025;HbA1c;41;mmol/mol
+151;Week 12;02/05/2025;Potassium;3,4;mmol/L
+107;Screening;22/03/2025;Creatinine;95;µmol/L
+170;Screening;21/02/2025;Glucose;4,7;mmol/L
+134;Week 4;13/06/2025;Creatinine;106;µmol/L
+176;Week 12;28/12/2025;Glucose;6,1;mmol/L
+196;Screening;28/01/2025;Total cholesterol;3,02;mmol/L
+101;Week 4;13/08/2025;Potassium;4,3;mmol/L
+168;Screening;21/06/2025;Total cholesterol;5,06;mmol/L
+115;Week 12;19/12/2025;HbA1c;32;mmol/mol
+198;Week 12;14/04/2025;Creatinine;48;µmol/L
+103;Week 12;28/12/2025;Total cholesterol;4,40;mmol/L
+196;Week 4;25/02/2025;Glucose;6,5;mmol/L
+194;Week 12;11/01/2026;Glucose;4,9;mmol/L
+186;Week 12;10/08/2025;Total cholesterol;5,43;mmol/L
+110;Screening;28/09/2025;Total cholesterol;4,30;mmol/L
+178;Week 4;02/11/2025;Creatinine;73;umol/L
+101;Screening;16/07/2025;Glucose;6,1;mmol/L
+116;Week 12;04/09/2025;Glucose;7,6;mmol/L
+190;Week 4;30/08/2025;Creatinine;88;µmol/L
+195;Week 4;04/04/2025;HbA1c;36;mmol/mol
+181;Screening;05/02/2025;Potassium;4,6;mmol/L
+199;Screening;07/01/2025;Total cholesterol;6,28;mmol/L
+108;Screening;08/01/2025;Potassium;4,3;mmol/L
+167;Week 4;17/11/2025;Potassium;4,4;mmol/L
+103;Screening;05/10/2025;Total cholesterol;6,29;mmol/L
+159;Week 12;10/04/2025;Total cholesterol;5,83;mmol/L
+174;Week 4;24/11/2025;Glucose;5,9;mmol/L
+158;Screening;16/08/2025;Total cholesterol;3,95;mmol/L
+122;Screening;10/01/2025;Creatinine;68;µmol/L
+132;Week 4;13/07/2025;Potassium;4,6;mmol/L
+109;Week 12;11/05/2025;Creatinine;88;µmol/L
+121;Week 12;23/07/2025;Creatinine;68;µmol/L
+158;Week 12;08/11/2025;Total cholesterol;4,68;mmol/L
+190;Screening;02/08/2025;Creatinine;93;µmol/L
+129;Week 4;17/06/2025;Total cholesterol;4,01;mmol/L
+158;Screening;16/08/2025;Potassium;4,3;mmol/L
+109;Screening;16/02/2025;HbA1c;45;mmol/mol
+101;Screening;16/07/2025;Total cholesterol;6,19;mmol/L
+125;Screening;12/06/2025;Total cholesterol;2,10;mmol/L
+136;Week 12;29/09/2025;Total cholesterol;4,77;mmol/L
+116;Week 4;10/07/2025;Glucose;6,8;mmol/L
+159;Week 4;13/02/2025;Potassium;4,6;mmol/L
+193;Week 4;24/06/2025;Creatinine;58;µmol/L
+131;Week 12;31/03/2025;Creatinine;85;µmol/L
+197;Screening;28/07/2025;Potassium;4,7;mmol/L
+123;Week 4;01/09/2025;Glucose;7,5;mmol/L
+157;Screening;14/01/2025;HbA1c;32;mmol/mol
+115;Week 12;19/12/2025;Potassium;3,9;mmol/L
+177;Week 12;03/12/2025;Total cholesterol;3,96;mmol/L
+129;Week 4;17/06/2025;HbA1c;36;mmol/mol
+199;Week 12;01/04/2025;Total cholesterol;6,01;mmol/L
+190;Week 12;25/10/2025;Glucose;6,2;mmol/L
+152;Week 4;25/09/2025;Creatinine;72;umol/L
+183;Week 12;25/06/2025;Potassium;3,9;mmol/L
+136;Week 4;04/08/2025;Glucose;5,3;mmol/L
+176;Week 4;02/11/2025;Creatinine;78;µmol/L
+138;Week 12;04/09/2025;Potassium;4,0;mmol/L
+130;Week 4;21/05/2025;HbA1c;50;mmol/mol
+194;Screening;19/10/2025;Creatinine;74;µmol/L
+169;Week 4;06/09/2025;Glucose;4,7;mmol/L
+176;Week 12;28/12/2025;Total cholesterol;3,88;mmol/L
+191;Week 4;26/08/2025;Glucose;5,7;mmol/L
+165;Screening;11/01/2025;HbA1c;34;mmol/mol
+138;Screening;12/06/2025;Creatinine;96;µmol/L
+184;Week 12;07/11/2025;Creatinine;79;µmol/L
+115;Week 4;24/10/2025;Glucose;6,4;mmol/L
+137;Week 12;06/12/2025;Glucose;4,9;mmol/L
+170;Week 4;21/03/2025;Glucose;6,1;mmol/L
+103;Week 4;02/11/2025;Total cholesterol;5,89;mmol/L
+194;Screening;19/10/2025;Potassium;4,5;mmol/L
+133;Screening;27/01/2025;Total cholesterol;4,11;mmol/L
+161;Week 12;02/07/2025;HbA1c;40;mmol/mol
+171;Week 4;15/08/2025;Glucose;7,2;mmol/L
+119;Week 4;06/07/2025;Glucose;6,8;mmol/L
+124;Screening;19/08/2025;Potassium;4,2;mmol/L
+142;Week 12;05/07/2025;Creatinine;180;µmol/L
+119;Screening;08/06/2025;Glucose;4,4;mmol/L
+193;Screening;27/05/2025;Glucose;5,5;mmol/L
+170;Week 4;21/03/2025;Potassium;4,2;mmol/L
+160;Week 12;27/05/2025;HbA1c;37;mmol/mol
+108;Week 12;02/04/2025;Total cholesterol;5,99;mmol/L
+120;Week 4;20/11/2025;Total cholesterol;4,84;mmol/L
+161;Week 12;02/07/2025;Creatinine;74;umol/L
+155;Week 12;11/01/2026;Potassium;3,8;mmol/L
+182;Week 4;02/09/2025;Potassium;4,4;mmol/L
+178;Week 12;28/12/2025;Total cholesterol;6,50;mmol/L
+116;Screening;12/06/2025;HbA1c;24;mmol/mol
+199;Week 4;04/02/2025;Potassium;3,9;mmol/L
+161;Screening;09/04/2025;Glucose;4,9;mmol/L
+139;Week 12;20/04/2025;Creatinine;66;µmol/L
+158;Screening;16/08/2025;Creatinine;56;µmol/L
+149;Screening;18/10/2025;Potassium;4,5;mmol/L
+176;Week 4;02/11/2025;Glucose;6,3;mmol/L
+137;Screening;13/09/2025;Glucose;6,8;mmol/L
+113;Week 12;16/01/2026;Creatinine;91;µmol/L
+118;Screening;04/08/2025;Creatinine;91;µmol/L
+129;Screening;20/05/2025;Total cholesterol;5,30;mmol/L
+125;Screening;12/06/2025;HbA1c;40;mmol/mol
+124;Screening;19/08/2025;Creatinine;84;µmol/L
+108;Screening;08/01/2025;HbA1c;39;mmol/mol
+120;Screening;23/10/2025;Potassium;3,9;mmol/L
+120;Week 12;15/01/2026;Creatinine;83;µmol/L
+101;Week 12;08/10/2025;Creatinine;68;µmol/L
+160;Week 4;01/04/2025;Potassium;3,8;mmol/L
+156;Screening;10/07/2025;HbA1c;42;mmol/mol
+194;Week 4;16/11/2025;Potassium;4,8;mmol/L
+183;Screening;02/04/2025;Creatinine;58;umol/L
+192;Screening;10/09/2025;Glucose;7,2;mmol/L
+183;Week 4;30/04/2025;Glucose;4,7;mmol/L
+189;Week 12;01/09/2025;Total cholesterol;4,41;mmol/L
+166;Screening;05/09/2025;Creatinine;83;µmol/L
+133;Week 4;24/02/2025;Total cholesterol;3,41;mmol/L
+160;Screening;04/03/2025;Potassium;4,1;mmol/L
+167;Week 12;12/01/2026;HbA1c;28;mmol/mol
+129;Week 4;17/06/2025;Potassium;4,3;mmol/L
+153;Week 4;30/08/2025;Glucose;5,3;mmol/L
+195;Week 4;04/04/2025;Total cholesterol;5,64;mmol/L
+122;Screening;10/01/2025;Potassium;4,4;mmol/L
+105;Screening;15/02/2025;Total cholesterol;4,64;mmol/L
+113;Screening;24/10/2025;Potassium;3,9;mmol/L
+121;Week 4;28/05/2025;Total cholesterol;5,23;mmol/L
+118;Week 4;01/09/2025;HbA1c;42;mmol/mol
+173;Screening;31/01/2025;HbA1c;46;mmol/mol
+111;Screening;21/04/2025;Total cholesterol;6,21;mmol/L
+187;Week 4;12/04/2025;HbA1c;42;mmol/mol
+128;Week 12;20/05/2025;Total cholesterol;2,99;mmol/L
+115;Week 4;24/10/2025;Potassium;4,1;mmol/L
+132;Screening;15/06/2025;Potassium;3,7;mmol/L
+110;Screening;28/09/2025;HbA1c;29;mmol/mol
+187;Week 12;07/06/2025;Creatinine;60;µmol/L
+179;Week 12;27/08/2025;Creatinine;79;µmol/L
+156;Screening;10/07/2025;Total cholesterol;6,43;mmol/L
+111;Screening;21/04/2025;HbA1c;26;mmol/mol
+192;Week 12;03/12/2025;Glucose;4,8;mmol/L
+184;Week 12;07/11/2025;Potassium;3,5;mmol/L
+168;Week 12;13/09/2025;Creatinine;88;µmol/L
+187;Week 12;07/06/2025;Glucose;6,8;mmol/L
+120;Screening;23/10/2025;Glucose;7,7;mmol/L
+191;Screening;29/07/2025;Glucose;6,0;mmol/L
+102;Screening;08/09/2025;Creatinine;79;µmol/L
+198;Week 12;14/04/2025;Total cholesterol;5,70;mmol/L
+194;Screening;19/10/2025;HbA1c;35;mmol/mol
+130;Week 12;16/07/2025;HbA1c;33;mmol/mol
+148;Week 4;25/09/2025;HbA1c;33;mmol/mol
+144;Week 12;10/10/2025;Glucose;4,8;mmol/L
+108;Screening;08/01/2025;Creatinine;74;µmol/L
+149;Week 12;10/01/2026;Total cholesterol;4,66;mmol/L
+188;Week 4;15/10/2025;Creatinine;74;µmol/L
+117;Week 4;25/02/2025;HbA1c;36;mmol/mol
+171;Screening;18/07/2025;Total cholesterol;5,17;mmol/L
+163;Week 12;08/04/2025;HbA1c;52;mmol/mol
+105;Week 4;15/03/2025;Creatinine;94;µmol/L
+171;Screening;18/07/2025;Creatinine;124;µmol/L
+146;Week 4;09/07/2025;Glucose;5,9;mmol/L
+192;Week 4;08/10/2025;HbA1c;35;mmol/mol
+154;Screening;13/07/2025;Glucose;8,4;mmol/L
+119;Week 4;06/07/2025;HbA1c;41;mmol/mol
+193;Week 4;24/06/2025;Glucose;5,8;mmol/L
+104;Week 12;09/05/2025;Potassium;4,3;mmol/L
+144;Week 12;10/10/2025;Potassium;3,8;mmol/L
+177;Week 12;03/12/2025;Glucose;5,2;mmol/L
+107;Week 4;19/04/2025;Creatinine;78;µmol/L
+150;Screening;06/08/2025;HbA1c;48;mmol/mol
+199;Screening;07/01/2025;HbA1c;55;mmol/mol
+171;Week 12;10/10/2025;Creatinine;96;µmol/L
+177;Week 4;08/10/2025;HbA1c;37;mmol/mol
+134;Screening;16/05/2025;Total cholesterol;4,23;mmol/L
+121;Week 4;28/05/2025;HbA1c;31;mmol/mol
+200;Week 4;02/07/2025;Potassium;3,9;mmol/L
+136;Screening;07/07/2025;HbA1c;39;mmol/mol
+139;Week 12;20/04/2025;Total cholesterol;5,42;mmol/L
+157;Week 4;11/02/2025;Potassium;3,8;mmol/L
+113;Week 12;16/01/2026;Total cholesterol;4,53;mmol/L
+141;Screening;17/09/2025;Potassium;3,6;mmol/L
+136;Screening;07/07/2025;Potassium;4,6;mmol/L
+103;Week 4;02/11/2025;Creatinine;55;µmol/L
+130;Week 4;21/05/2025;Glucose;5,0;mmol/L
+163;Week 12;08/04/2025;Glucose;6,5;mmol/L
+128;Week 12;20/05/2025;Potassium;4,8;mmol/L
+102;Week 12;01/12/2025;Creatinine;69;µmol/L
+195;Week 4;04/04/2025;Potassium;4,3;mmol/L
+145;Week 4;07/05/2025;HbA1c;55;mmol/mol
+143;Screening;07/07/2025;Glucose;5,2;mmol/L
+126;Week 4;28/05/2025;Creatinine;55;µmol/L
+138;Week 4;10/07/2025;Creatinine;72;µmol/L
+106;Week 12;03/11/2025;Glucose;7,0;mmol/L
+136;Week 12;29/09/2025;HbA1c;44;mmol/mol
+200;Week 12;27/08/2025;HbA1c;38;mmol/mol
+132;Screening;15/06/2025;Glucose;5,9;mmol/L
+151;Week 12;02/05/2025;HbA1c;41;mmol/mol
+163;Week 12;08/04/2025;Creatinine;51;µmol/L
+114;Week 12;02/04/2025;Glucose;7,7;mmol/L
+134;Screening;16/05/2025;HbA1c;44;mmol/mol
+183;Week 12;25/06/2025;Creatinine;82;µmol/L
+129;Week 12;12/08/2025;HbA1c;30;mmol/mol
+191;Week 4;26/08/2025;Potassium;4,9;mmol/L
+173;Week 12;25/04/2025;HbA1c;36;mmol/mol
+121;Week 12;23/07/2025;Glucose;5,5;mmol/L
+133;Week 12;21/04/2025;Total cholesterol;3,95;mmol/L
+144;Screening;18/07/2025;Total cholesterol;4,69;mmol/L
+169;Week 12;01/11/2025;Total cholesterol;5,39;mmol/L
+146;Screening;11/06/2025;HbA1c;48;mmol/mol
+112;Screening;10/07/2025;HbA1c;29;mmol/mol
+189;Screening;09/06/2025;Glucose;4,0;mmol/L
+177;Screening;10/09/2025;Total cholesterol;4,03;mmol/L
+145;Week 4;07/05/2025;Total cholesterol;4,47;mmol/L
+176;Week 4;02/11/2025;Potassium;3,9;mmol/L
+150;Week 12;29/10/2025;Total cholesterol;5,25;mmol/L
+108;Week 12;02/04/2025;Glucose;5,5;mmol/L
+154;Week 4;10/08/2025;Creatinine;51;µmol/L
+155;Week 4;16/11/2025;Creatinine;66;µmol/L
+169;Week 4;06/09/2025;Creatinine;;µmol/L
+164;Week 12;09/08/2025;Glucose;6,6;mmol/L
+128;Screening;25/02/2025;Glucose;4,4;mmol/L
+105;Week 12;10/05/2025;Potassium;4,3;mmol/L
+182;Week 12;28/10/2025;Glucose;6,5;mmol/L
+148;Week 4;25/09/2025;Glucose;6,0;mmol/L
+117;Week 12;22/04/2025;Potassium;4,4;mmol/L
+107;Week 12;14/06/2025;HbA1c;35;mmol/mol
+106;Week 4;08/09/2025;HbA1c;45;mmol/mol
+162;Screening;07/03/2025;Glucose;4,9;mmol/L
+145;Week 12;02/07/2025;Total cholesterol;5,39;mmol/L
+149;Screening;18/10/2025;Total cholesterol;4,32;mmol/L
+112;Week 4;07/08/2025;Creatinine;86;µmol/L
+131;Week 12;31/03/2025;Total cholesterol;4,78;mmol/L
+179;Screening;04/06/2025;Potassium;4,5;mmol/L
+195;Week 4;04/04/2025;Creatinine;93;µmol/L
+197;Week 12;20/10/2025;HbA1c;34;mmol/mol
+125;Week 12;04/09/2025;Total cholesterol;5,77;mmol/L
+196;Week 4;25/02/2025;Creatinine;79;µmol/L
+176;Week 12;28/12/2025;Creatinine;58;µmol/L
+188;Screening;17/09/2025;Glucose;5,7;mmol/L
+187;Week 4;12/04/2025;Potassium;4,8;mmol/L
+195;Screening;07/03/2025;Creatinine;98;µmol/L
+187;Week 12;07/06/2025;Potassium;4,0;mmol/L
+198;Week 4;17/02/2025;Potassium;4,5;mmol/L
+103;Week 12;28/12/2025;Creatinine;89;µmol/L
+200;Week 4;02/07/2025;Glucose;5,9;mmol/L
+145;Week 4;07/05/2025;Potassium;4,0;mmol/L
+182;Screening;05/08/2025;HbA1c;40;mmol/mol
+141;Week 12;10/12/2025;Creatinine;86;µmol/L
+125;Week 12;04/09/2025;Potassium;4,3;mmol/L
+196;Week 4;25/02/2025;HbA1c;30;mmol/mol
+118;Week 4;01/09/2025;Creatinine;83;µmol/L
+125;Week 12;04/09/2025;Glucose;7,7;mmol/L
+198;Week 4;17/02/2025;HbA1c;37;mmol/mol
+167;Week 4;17/11/2025;Glucose;5,1;mmol/L
+147;Week 12;03/05/2025;Potassium;4,3;mmol/L
+154;Screening;13/07/2025;Total cholesterol;4,83;mmol/L
+167;Screening;20/10/2025;Creatinine;66;µmol/L
+165;Week 12;05/04/2025;Creatinine;93;µmol/L
+189;Week 12;01/09/2025;Glucose;4,1;mmol/L
+162;Week 12;30/05/2025;Potassium;4,0;mmol/L
+130;Week 12;16/07/2025;Potassium;4,2;mmol/L
+166;Week 4;03/10/2025;Glucose;6,3;mmol/L
+116;Week 12;04/09/2025;Potassium;3,9;mmol/L
+198;Screening;20/01/2025;HbA1c;41;mmol/mol
+175;Week 12;18/10/2025;HbA1c;33;mmol/mol
+118;Week 12;27/10/2025;Glucose;5,9;mmol/L
+162;Week 4;04/04/2025;Glucose;6,1;mmol/L
+126;Screening;30/04/2025;HbA1c;42;mmol/mol
+155;Week 12;11/01/2026;Glucose;5,7;mmol/L
+132;Week 12;07/09/2025;Glucose;5,6;mmol/L
+124;Week 4;16/09/2025;Creatinine;84;µmol/L
+196;Week 12;22/04/2025;Potassium;5,1;mmol/L
+186;Screening;18/05/2025;Potassium;3,8;mmol/L
+168;Week 12;13/09/2025;HbA1c;30;mmol/mol
+169;Week 12;01/11/2025;Creatinine;58;µmol/L
+181;Week 4;05/03/2025;HbA1c;46;mmol/mol
+199;Week 12;01/04/2025;Glucose;5,2;mmol/L
+107;Screening;22/03/2025;Potassium;3,7;mmol/L
+157;Week 4;11/02/2025;Glucose;5,7;mmol/L
+184;Week 4;12/09/2025;Total cholesterol;3,90;mmol/L
+121;Week 12;23/07/2025;Potassium;4,7;mmol/L
+135;Week 4;16/11/2025;Glucose;5,8;mmol/L
+117;Screening;28/01/2025;HbA1c;34;mmol/mol
+167;Week 12;12/01/2026;Glucose;7,4;mmol/L
+148;Week 4;25/09/2025;Potassium;3,9;mmol/L
+151;Screening;07/02/2025;Creatinine;69;µmol/L
+117;Week 4;25/02/2025;Glucose;4,6;mmol/L
+135;Week 12;11/01/2026;Creatinine;91;µmol/L
+198;Screening;20/01/2025;Glucose;4,6;mmol/L
+166;Screening;05/09/2025;Total cholesterol;5,16;mmol/L
+154;Screening;13/07/2025;Creatinine;51;µmol/L
+115;Screening;26/09/2025;Total cholesterol;4,88;mmol/L
+191;Week 4;26/08/2025;Total cholesterol;5,12;mmol/L
+153;Week 4;30/08/2025;Potassium;4,5;mmol/L
+200;Week 4;02/07/2025;Creatinine;104;µmol/L
+126;Week 12;23/07/2025;Glucose;4,9;mmol/L
+122;Screening;10/01/2025;Glucose;6,0;mmol/L
+149;Week 4;15/11/2025;Glucose;5,5;mmol/L
+145;Screening;09/04/2025;Creatinine;83;µmol/L
+111;Screening;21/04/2025;Creatinine;125;µmol/L
+151;Week 12;02/05/2025;Total cholesterol;3,73;mmol/L
+179;Week 12;27/08/2025;HbA1c;29;mmol/mol
+106;Week 12;03/11/2025;Total cholesterol;5,56;mmol/L
+138;Week 12;04/09/2025;Total cholesterol;4,61;mmol/L
+154;Week 4;10/08/2025;Glucose;5,9;mmol/L
+185;Screening;17/10/2025;Total cholesterol;5,71;mmol/L
+121;Screening;30/04/2025;Potassium;4,3;mmol/L
+143;Week 4;04/08/2025;Creatinine;77;µmol/L
+153;Screening;02/08/2025;Creatinine;63;µmol/L
+110;Week 12;21/12/2025;Creatinine;66;µmol/L
+158;Screening;16/08/2025;HbA1c;31;mmol/mol
+173;Screening;31/01/2025;Glucose;5,7;mmol/L
+183;Week 4;30/04/2025;Total cholesterol;4,87;mmol/L
+155;Week 4;16/11/2025;HbA1c;34;mmol/mol
+112;Week 4;07/08/2025;Glucose;6,1;mmol/L
+188;Week 4;15/10/2025;Potassium;3,2;mmol/L
+137;Week 4;11/10/2025;Potassium;4,2;mmol/L
+119;Week 12;31/08/2025;Glucose;5,9;mmol/L
+147;Week 4;08/03/2025;Creatinine;89;µmol/L
+110;Week 4;26/10/2025;Potassium;3,9;mmol/L
+118;Week 4;01/09/2025;Total cholesterol;4,80;mmol/L
+149;Screening;18/10/2025;Glucose;5,0;mmol/L
+167;Screening;20/10/2025;HbA1c;34;mmol/mol
+102;Screening;08/09/2025;Potassium;4,2;mmol/L
+140;Week 12;28/07/2025;HbA1c;35;mmol/mol
+145;Week 4;07/05/2025;Creatinine;119;µmol/L
+114;Screening;08/01/2025;Total cholesterol;4,49;mmol/L
+119;Week 12;31/08/2025;Total cholesterol;5,55;mmol/L
+173;Week 12;25/04/2025;Total cholesterol;4,00;mmol/L
+165;Week 4;08/02/2025;Total cholesterol;3,82;mmol/L
+140;Week 12;28/07/2025;Glucose;5,3;mmol/L
+133;Week 12;21/04/2025;HbA1c;42;mmol/mol
+137;Screening;13/09/2025;Creatinine;79;µmol/L
+157;Week 12;08/04/2025;Creatinine;83;µmol/L
+156;Week 4;07/08/2025;HbA1c;40;mmol/mol
+149;Week 4;15/11/2025;Creatinine;125;µmol/L
+107;Week 4;19/04/2025;Total cholesterol;4,40;mmol/L
+122;Week 4;07/02/2025;Creatinine;62;µmol/L
+101;Week 4;13/08/2025;Total cholesterol;5,51;mmol/L
+120;Week 4;20/11/2025;HbA1c;47;mmol/mol
+200;Screening;04/06/2025;Glucose;5,1;mmol/L
+174;Week 12;19/01/2026;Total cholesterol;3,55;mmol/L
+165;Week 4;08/02/2025;HbA1c;39;mmol/mol
+152;Screening;28/08/2025;Total cholesterol;5,43;mmol/L
+182;Screening;05/08/2025;Creatinine;63;µmol/L
+165;Screening;11/01/2025;Glucose;6,5;mmol/L
+185;Week 4;14/11/2025;HbA1c;53;mmol/mol
+200;Week 12;27/08/2025;Creatinine;117;µmol/L
+140;Week 4;02/06/2025;Glucose;8,5;mmol/L
+110;Week 4;26/10/2025;Creatinine;84;µmol/L
+103;Week 4;02/11/2025;Glucose;4,1;mmol/L
+145;Screening;09/04/2025;Total cholesterol;5,33;mmol/L
+164;Week 4;14/06/2025;Total cholesterol;3,15;mmol/L
+140;Week 12;28/07/2025;Potassium;4,3;mmol/L
+186;Week 12;10/08/2025;Glucose;5,2;mmol/L
+148;Screening;28/08/2025;Total cholesterol;7,81;mmol/L
+178;Screening;05/10/2025;Potassium;4,2;mmol/L
+110;Week 4;26/10/2025;HbA1c;51;mmol/mol
+169;Screening;09/08/2025;Total cholesterol;6,36;mmol/L
+140;Week 4;02/06/2025;Total cholesterol;4,31;mmol/L
+178;Screening;05/10/2025;Total cholesterol;5,35;mmol/L
+130;Week 12;16/07/2025;Glucose;5,7;mmol/L
+109;Week 12;11/05/2025;Total cholesterol;5,89;mmol/L
+184;Week 4;12/09/2025;Glucose;6,4;mmol/L
+197;Week 4;25/08/2025;Glucose;5,9;mmol/L
+128;Screening;25/02/2025;Total cholesterol;5,62;mmol/L
+136;Week 12;29/09/2025;Creatinine;93;µmol/L
+196;Screening;28/01/2025;HbA1c;36;mmol/mol
+131;Screening;06/01/2025;HbA1c;43;mmol/mol
+181;Week 4;05/03/2025;Potassium;4,5;mmol/L
+148;Screening;28/08/2025;Glucose;7,7;mmol/L
+179;Week 12;27/08/2025;Glucose;7,4;mmol/L
+152;Week 12;20/11/2025;Total cholesterol;4,45;mmol/L
+140;Screening;05/05/2025;Total cholesterol;5,11;mmol/L
+128;Week 4;25/03/2025;HbA1c;43;mmol/mol
+131;Screening;06/01/2025;Potassium;4,3;mmol/L
+174;Week 12;19/01/2026;Potassium;4,0;mmol/L
+177;Week 12;03/12/2025;Potassium;5,1;mmol/L
+172;Week 4;07/06/2025;Total cholesterol;3,45;mmol/L
+116;Screening;12/06/2025;Glucose;5,9;mmol/L
+182;Screening;05/08/2025;Total cholesterol;6,01;mmol/L
+179;Week 4;02/07/2025;Creatinine;93;µmol/L
+172;Week 12;02/08/2025;Potassium;4,1;mmol/L
+193;Week 4;24/06/2025;HbA1c;43;mmol/mol
+126;Screening;30/04/2025;Total cholesterol;4,20;mmol/L
+124;Week 4;16/09/2025;Glucose;6,0;mmol/L
+181;Week 12;30/04/2025;Creatinine;73;µmol/L
+119;Screening;08/06/2025;Creatinine;72;µmol/L
+161;Week 4;07/05/2025;HbA1c;53;mmol/mol
+161;Week 12;02/07/2025;Glucose;5,0;mmol/L
+159;Screening;16/01/2025;Creatinine;71;µmol/L
+130;Week 4;21/05/2025;Creatinine;76;µmol/L
+185;Screening;17/10/2025;Potassium;4,1;mmol/L
+127;Screening;13/06/2025;Potassium;4,7;mmol/L
+186;Week 12;10/08/2025;Creatinine;104;µmol/L
+148;Week 12;20/11/2025;Total cholesterol;6,22;mmol/L
+110;Week 4;26/10/2025;Total cholesterol;4,52;mmol/L
+141;Week 4;15/10/2025;Glucose;6,4;mmol/L
+;Week 12;28/11/2025;Creatinine;84;µmol/L
+125;Week 4;10/07/2025;Creatinine;63;µmol/L
+104;Week 4;14/03/2025;Creatinine;96;µmol/L
+171;Week 12;10/10/2025;Total cholesterol;3,79;mmol/L
+126;Week 12;23/07/2025;Total cholesterol;5,45;mmol/L
+122;Week 4;07/02/2025;HbA1c;48;mmol/mol
+106;Week 4;08/09/2025;Total cholesterol;5,18;mmol/L
+167;Week 4;17/11/2025;Creatinine;84;µmol/L
+199;Week 12;01/04/2025;Potassium;3,8;mmol/L
+118;Week 12;27/10/2025;HbA1c;38;mmol/mol
+111;Week 12;14/07/2025;Glucose;4,9;mmol/L
+179;Screening;04/06/2025;Glucose;5,9;mmol/L
+171;Week 12;10/10/2025;Potassium;4,2;mmol/L
+177;Screening;10/09/2025;HbA1c;48;mmol/mol
+199;Screening;07/01/2025;Creatinine;53;µmol/L
+123;Week 12;27/10/2025;Creatinine;99;µmol/L
+165;Week 12;05/04/2025;HbA1c;49;mmol/mol
+112;Week 12;02/10/2025;Creatinine;106;µmol/L
+104;Screening;14/02/2025;Creatinine;113;µmol/L
+183;Week 4;30/04/2025;Creatinine;70;µmol/L
+116;Screening;12/06/2025;Total cholesterol;4,67;mmol/L
+120;Week 12;15/01/2026;HbA1c;40;mmol/mol
+196;Week 4;25/02/2025;Total cholesterol;4,27;mmol/L
+147;Screening;08/02/2025;Glucose;4,5;mmol/L
+114;Week 4;05/02/2025;Potassium;4,4;mmol/L
+107;Week 12;14/06/2025;Total cholesterol;5,00;mmol/L
+188;Week 4;15/10/2025;Glucose;4,9;mmol/L
+126;Week 12;23/07/2025;Potassium;5,1;mmol/L
+150;Screening;06/08/2025;Total cholesterol;5,03;mmol/L
+123;Week 4;01/09/2025;Total cholesterol;4,89;mmol/L
+113;Screening;24/10/2025;Total cholesterol;4,77;mmol/L
+196;Screening;28/01/2025;Potassium;5,3;mmol/L
+148;Week 4;25/09/2025;Creatinine;72;µmol/L
+150;Week 4;03/09/2025;Potassium;4,6;mmol/L
+103;Screening;05/10/2025;Creatinine;102;µmol/L
+124;Week 12;11/11/2025;Creatinine;94;µmol/L
+174;Screening;27/10/2025;Total cholesterol;4,66;mmol/L
+190;Week 4;30/08/2025;HbA1c;34;mmol/mol
+151;Week 12;02/05/2025;Glucose;7,1;mmol/L
+104;Week 4;14/03/2025;HbA1c;39;mmol/mol
+112;Screening;10/07/2025;Potassium;4,1;mmol/L
+117;Screening;28/01/2025;Glucose;5,4;mmol/L
+114;Screening;08/01/2025;Glucose;4,8;mmol/L
+130;Week 4;21/05/2025;Potassium;4,1;mmol/L
+110;Screening;28/09/2025;Glucose;4,6;mmol/L
+193;Screening;27/05/2025;Potassium;4,4;mmol/L
+106;Week 12;03/11/2025;HbA1c;36;mmol/mol
+166;Screening;05/09/2025;HbA1c;36;mmol/mol
+154;Screening;13/07/2025;HbA1c;36;mmol/mol
+189;Week 4;07/07/2025;HbA1c;32;mmol/mol
+166;Week 12;28/11/2025;Potassium;4,0;mmol/L
+111;Week 12;14/07/2025;Total cholesterol;4,85;mmol/L
+180;Week 4;21/11/2025;Total cholesterol;4,56;mmol/L
+159;Week 12;10/04/2025;Creatinine;91;µmol/L
+117;Week 12;22/04/2025;Creatinine;99;µmol/L
+149;Week 12;10/01/2026;Potassium;3,9;mmol/L
+109;Screening;16/02/2025;Total cholesterol;4,80;mmol/L
+142;Screening;12/04/2025;Glucose;5,4;mmol/L
+188;Week 12;10/12/2025;Potassium;4,6;mmol/L
+154;Week 4;10/08/2025;HbA1c;44;mmol/mol
+177;Week 12;03/12/2025;Creatinine;90;µmol/L
+137;Week 4;11/10/2025;Creatinine;73;µmol/L
+193;Week 12;19/08/2025;HbA1c;36;mmol/mol
+124;Week 4;16/09/2025;Potassium;4,0;mmol/L
+187;Screening;15/03/2025;HbA1c;43;mmol/mol
+177;Week 4;08/10/2025;Total cholesterol;4,70;mmol/L
+115;Screening;26/09/2025;Glucose;6,5;mmol/L
+173;Screening;31/01/2025;Total cholesterol;5,85;mmol/L
+107;Week 4;19/04/2025;HbA1c;52;mmol/mol
+152;Week 4;25/09/2025;Potassium;4,4;mmol/L
+176;Screening;05/10/2025;Potassium;4,1;mmol/L
+120;Week 12;15/01/2026;Total cholesterol;4,69;mmol/L
+132;Screening;15/06/2025;Total cholesterol;4,24;mmol/L
+135;Week 12;11/01/2026;Total cholesterol;4,23;mmol/L
+143;Week 12;29/09/2025;Total cholesterol;4,66;mmol/L
+184;Week 4;12/09/2025;Creatinine;101;µmol/L
+191;Week 12;21/10/2025;HbA1c;43;mmol/mol
+136;Week 4;04/08/2025;Creatinine;115;µmol/L
+175;Week 12;18/10/2025;Potassium;4,2;mmol/L
+159;Week 12;10/04/2025;Potassium;4,2;mmol/L
+162;Week 4;04/04/2025;Creatinine;71;µmol/L
+152;Week 4;25/09/2025;Total cholesterol;4,84;mmol/L
+132;Screening;15/06/2025;Creatinine;64;µmol/L
+121;Week 4;28/05/2025;Creatinine;102;µmol/L
+159;Screening;16/01/2025;Glucose;5,4;mmol/L
+175;Week 4;23/08/2025;HbA1c;46;mmol/mol
+117;Screening;28/01/2025;Total cholesterol;4,13;mmol/L
+156;Screening;10/07/2025;Potassium;4,5;mmol/L
+194;Week 12;11/01/2026;Potassium;4,4;mmol/L
+151;Week 4;07/03/2025;Creatinine;73;µmol/L
+129;Screening;20/05/2025;HbA1c;47;mmol/mol
+139;Screening;26/01/2025;Creatinine;61;µmol/L
+104;Week 4;14/03/2025;Potassium;3,8;mmol/L
+163;Screening;14/01/2025;HbA1c;27;mmol/mol
+163;Week 4;11/02/2025;Creatinine;66;µmol/L
+155;Week 4;16/11/2025;Potassium;4,2;mmol/L
+119;Week 12;31/08/2025;HbA1c;44;mmol/mol
+135;Week 12;11/01/2026;HbA1c;40;mmol/mol
+183;Week 12;25/06/2025;Total cholesterol;4,26;mmol/L
+131;Week 4;03/02/2025;Creatinine;76;µmol/L
+183;Week 12;25/06/2025;HbA1c;49;mmol/mol
+135;Week 12;11/01/2026;Potassium;4,8;mmol/L
+121;Screening;30/04/2025;Total cholesterol;3,30;mmol/L
+124;Week 12;11/11/2025;HbA1c;40;mmol/mol
+183;Week 4;30/04/2025;Potassium;4,1;mmol/L
+134;Week 12;08/08/2025;Creatinine;54;µmol/L
+138;Week 12;04/09/2025;Creatinine;59;µmol/L
+108;Week 12;02/04/2025;Potassium;3,9;mmol/L
+161;Screening;09/04/2025;HbA1c;34;mmol/mol
+127;Week 12;05/09/2025;Creatinine;103;µmol/L
+142;Week 12;05/07/2025;Total cholesterol;5,38;mmol/L
+128;Week 4;25/03/2025;Total cholesterol;5,12;mmol/L
+172;Week 12;02/08/2025;Total cholesterol;6,45;mmol/L
+167;Week 12;12/01/2026;Creatinine;104;µmol/L
+194;Screening;19/10/2025;Total cholesterol;6,13;mmol/L
+114;Screening;08/01/2025;Creatinine;92;µmol/L
+110;Week 12;21/12/2025;Glucose;6,3;mmol/L
+199;Week 4;04/02/2025;Creatinine;82;µmol/L
+119;Week 12;31/08/2025;Creatinine;96;µmol/L
+183;Screening;02/04/2025;Glucose;6,3;mmol/L

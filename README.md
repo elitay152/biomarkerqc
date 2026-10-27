@@ -21,7 +21,7 @@ into one clean, auditable dataset:
 ## Roadmap
 
 - [x] Package skeleton
-- [ ] Synthetic vendor files
+- [x] Synthetic vendor files (`data-raw/make_vendor_files.R` → `inst/extdata/`)
 - [ ] Ingest and standard schema
 - [ ] Unit normalization
 - [ ] Duplicate and missing-value flags
