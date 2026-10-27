@@ -28,7 +28,7 @@ into one clean, auditable dataset:
 - [x] Synthetic vendor files (`data-raw/make_vendor_files.R` → `inst/extdata/`)
 - [x] Ingest and standard schema
 - [x] Unit normalization
-- [ ] Duplicate and missing-value flags
+- [x] Duplicate, missing-value and plausibility flags
 - [ ] Cross-vendor reconciliation
 - [ ] Traceable QC report
 - [x] Continuous integration (R CMD check on GitHub Actions)
