@@ -2,7 +2,10 @@
 
 export(biomarkerqc_example)
 export(ingest_lab_files)
+export(normalize_units)
 export(read_vendor_file)
 export(standard_columns)
+export(unit_rules)
+export(unit_synonyms)
 export(vendor_specs)
 importFrom(rlang,abort)
