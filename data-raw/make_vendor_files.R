@@ -1,27 +1,13 @@
-# Generate synthetic vendor lab files -------------------------------------
+# Generates the synthetic example data in inst/extdata/. Run from the package root.
 #
-# Creates the example data shipped in inst/extdata/:
-#   vendor_a_results.csv  Vendor A: US conventional units, ISO dates
-#   vendor_b_results.csv  Vendor B: SI units, European CSV (; and decimal comma)
-#   planted_issues.csv    ground truth: every problem deliberately planted
-#
-# Scenario: a 200-subject study switches lab vendors partway through.
-# Vendor A tested subjects 1-140 and Vendor B tested 101-200, so samples from
-# subjects 101-140 were tested by BOTH labs. That overlap is what
-# reconciliation compares.
-#
-# To keep the ground truth unambiguous, each kind of problem is planted in its
-# own subject range:
-#   subjects   1-100  Vendor A problems
-#   subjects 101-140  cross-vendor discrepancies only
-#   subjects 141-200  Vendor B problems
-#
-# All data is synthetic.
+# A 200-subject study switches lab vendors: A tests subjects 1-140 and B tests
+# 101-200, so 101-140 are tested by both. Each kind of planted problem gets its
+# own subject range so the ground truth is unambiguous:
+#   1-100 Vendor A problems | 101-140 cross-vendor discrepancies | 141-200 Vendor B problems
 
 set.seed(20261027)
 
-# 1. The "true" results ---------------------------------------------------
-# One row per subject x visit x test, in the approved (US conventional) units.
+# 1. True results, in approved (US conventional) units -----------------------
 
 subjects <- sprintf("SUBJ-%04d", 1:200)
 subject_num <- 1:200
@@ -36,9 +22,7 @@ truth <- expand.grid(
 )[, c("subject_id", "visit", "test")]
 truth$subject_num <- match(truth$subject_id, subjects)
 
-# Each subject enrolls on a random day in 2025; visits follow the schedule,
-# with collection between 07:00 and 11:00. All tests at a visit share one
-# sample, so they share one collection time.
+# All tests at a visit come from one sample, so they share a collection time
 enrolled <- as.POSIXct("2025-01-06 07:00", tz = "UTC") + sample(0:300, 200, replace = TRUE) * 86400
 draw_minutes <- sample(0:240, 200 * 3, replace = TRUE)
 names(draw_minutes) <- paste(rep(subjects, each = 3), names(visit_days))
@@ -59,14 +43,12 @@ for (t in tests) {
   truth$value[rows] <- generators[[t]](sum(rows))
 }
 
-# 2. Render each vendor's file format --------------------------------------
-# Each rendered table keeps hidden key columns (.subject_id, .visit, .test) so
-# planted issues can be recorded in standard form. They are dropped before
-# the files are written.
+# 2. Render each vendor's format ---------------------------------------------
+# The hidden .subject_id/.visit/.test columns let planted issues be recorded
+# in standard form; they are dropped when the files are written.
 
 fmt <- function(x, digits) sprintf("%.*f", as.integer(digits), x)
 
-# Vendor A: conventional units, test codes, ISO date-times
 a_digits <- c(GLUC = 0, CREAT = 2, HBA1C = 1, CHOL = 0, K = 1)
 a_units  <- c(GLUC = "mg/dL", CREAT = "mg/dL", HBA1C = "%", CHOL = "mg/dL", K = "mmol/L")
 
@@ -82,13 +64,12 @@ vendor_a <- data.frame(
   stringsAsFactors = FALSE
 )
 
-# Vendor B: SI units, full analyte names, numeric patient IDs, day/month/year
 to_si <- list(
-  GLUC  = function(x) x / 18.016,          # mg/dL  -> mmol/L
-  CREAT = function(x) x * 88.42,           # mg/dL  -> umol/L
-  HBA1C = function(x) (x - 2.152) / 0.09148, # %    -> mmol/mol (IFCC); not a simple ratio
-  CHOL  = function(x) x / 38.67,           # mg/dL  -> mmol/L
-  K     = function(x) x                    # mmol/L -> mmol/L
+  GLUC  = function(x) x / 18.016,
+  CREAT = function(x) x * 88.42,
+  HBA1C = function(x) (x - 2.152) / 0.09148, # % -> mmol/mol: has an offset, not a simple ratio
+  CHOL  = function(x) x / 38.67,
+  K     = function(x) x
 )
 b_digits <- c(GLUC = 1, CREAT = 0, HBA1C = 0, CHOL = 2, K = 1)
 b_units  <- c(GLUC = "mmol/L", CREAT = "µmol/L", HBA1C = "mmol/mol", CHOL = "mmol/L", K = "mmol/L")
@@ -128,8 +109,7 @@ record <- function(issue_type, vendor, df, rows, detail) {
   )
 }
 
-# Draws rows without replacement from a pool, so no row gets two problems.
-# `filter` is an optional logical vector over all rows (e.g. only GLUC rows).
+# Draws without replacement, so no row gets two problems
 take <- function(pool_env, n, filter = NULL) {
   candidates <- if (is.null(filter)) pool_env$rows else pool_env$rows[filter[pool_env$rows]]
   picked <- candidates[sample.int(length(candidates), n)]
@@ -185,14 +165,12 @@ rows <- take(pool_b, 2)
 record("missing_subject_id", "B", vendor_b, rows, "patient is blank")
 vendor_b$patient[rows] <- ""
 
-# Not an error: an alternative spelling of an approved unit, which the
-# package should normalize rather than reject.
+# Not an error: the package should normalize this spelling, not reject it
 rows <- take(pool_b, 10, vendor_b$.test == "CREAT")
 record("unit_synonym", "B", vendor_b, rows, "creatinine unit spelled 'umol/L' instead of 'µmol/L'")
 vendor_b$units[rows] <- "umol/L"
 
-# Cross-vendor discrepancies (overlap subjects 101-140): Vendor B's result
-# for the same sample differs far beyond rounding.
+# Cross-vendor discrepancies (subjects 101-140)
 overlap <- which(match(vendor_b$.subject_id, subjects) %in% 101:140)
 rows <- overlap[sample.int(length(overlap), 4)]
 record("cross_vendor_discrepancy", "B", vendor_b, rows,
@@ -202,7 +180,6 @@ vendor_b$value[rows] <- fmt(as.numeric(vendor_b$value[rows]) * 1.3, b_digits[ven
 vendor_b <- rbind(vendor_b, dup_b)
 vendor_b <- vendor_b[sample.int(nrow(vendor_b)), ]  # vendor B's feed arrives unsorted
 
-# Vendor B uses a decimal comma (blank values stay blank)
 vendor_b$value <- sub(".", ",", vendor_b$value, fixed = TRUE)
 
 # 4. Write the files --------------------------------------------------------

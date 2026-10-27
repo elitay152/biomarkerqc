@@ -22,7 +22,7 @@ into one clean, auditable dataset:
 
 - [x] Package skeleton
 - [x] Synthetic vendor files (`data-raw/make_vendor_files.R` → `inst/extdata/`)
-- [ ] Ingest and standard schema
+- [x] Ingest and standard schema
 - [ ] Unit normalization
 - [ ] Duplicate and missing-value flags
 - [ ] Cross-vendor reconciliation

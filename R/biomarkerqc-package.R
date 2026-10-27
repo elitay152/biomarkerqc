@@ -9,4 +9,6 @@
 #' 5. **Report** the findings with full traceability back to the source rows.
 #'
 #' @keywords internal
+#' @importFrom rlang abort
 "_PACKAGE"
+# rlang is imported because cli_abort() and cli_warn() need it at runtime.
