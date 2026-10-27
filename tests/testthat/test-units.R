@@ -2,18 +2,6 @@ labs_example <- function() {
   normalize_units(ingest_lab_files(c(A = path_a(), B = path_b())))
 }
 
-# One-row lab table in the standard schema, for targeted cases
-lab_row <- function(test_code, result, unit_raw) {
-  n <- length(result)
-  data.frame(
-    vendor = "X", subject_id = "SUBJ-0001", visit = "SCR",
-    test_code = test_code, collection_date = as.Date("2025-01-01"),
-    result_raw = as.character(result), result = result, qualifier = NA_character_,
-    unit_raw = unit_raw, source_file = "x.csv", source_line = seq_len(n) + 1L,
-    stringsAsFactors = FALSE
-  )
-}
-
 # Conversions ----------------------------------------------------------------
 
 test_that("conversions match published factors, including HbA1c's offset", {

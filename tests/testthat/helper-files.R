@@ -10,6 +10,18 @@ planted <- function(type, vendor = NULL) {
   p
 }
 
+# Small lab table in the standard schema, one row per result, for targeted cases
+lab_row <- function(test_code, result, unit_raw) {
+  n <- length(result)
+  data.frame(
+    vendor = "X", subject_id = "SUBJ-0001", visit = "SCR",
+    test_code = test_code, collection_date = as.Date("2025-01-01"),
+    result_raw = as.character(result), result = result, qualifier = NA_character_,
+    unit_raw = unit_raw, source_file = "x.csv", source_line = seq_len(n) + 1L,
+    stringsAsFactors = FALSE
+  )
+}
+
 # Writes lines to a temporary file that is deleted when the test finishes
 temp_lab_file <- function(lines, env = parent.frame()) {
   path <- withr::local_tempfile(fileext = ".csv", .local_envir = env)
