@@ -1,0 +1,17 @@
+Package: biomarkerqc
+Title: Quality Control for Clinical Biomarker Lab Files
+Version: 0.0.0.9000
+Authors@R:
+    person("Eli", "Taylor", , "116466727+elitay152@users.noreply.github.com", role = c("aut", "cre"))
+Description: Ingests clinical laboratory result files from multiple vendors,
+    normalizes results to approved units, reconciles records across sources,
+    flags duplicates and missing values, and produces a traceable quality
+    control report. Designed around vectorized operations so checks scale to
+    large result sets.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
