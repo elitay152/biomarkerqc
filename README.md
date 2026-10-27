@@ -1,5 +1,9 @@
 # biomarkerqc
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/elitay152/biomarkerqc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/elitay152/biomarkerqc/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 Quality control for clinical biomarker lab files, written as an R package.
 
 > **Status:** in development. All data in this repository is synthetic.
@@ -27,4 +31,4 @@ into one clean, auditable dataset:
 - [ ] Duplicate and missing-value flags
 - [ ] Cross-vendor reconciliation
 - [ ] Traceable QC report
-- [ ] Continuous integration (R CMD check on GitHub Actions)
+- [x] Continuous integration (R CMD check on GitHub Actions)
