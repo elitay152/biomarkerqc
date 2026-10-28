@@ -14,10 +14,12 @@ run_qc(
 )
 }
 \arguments{
-\item{files}{A named character vector of file paths, where each name is the
-vendor (for example \code{c(A = "a.csv", B = "b.csv")}).}
+\item{files}{Lab data named by vendor: a named character vector of file
+paths (\code{c(A = "a.csv", B = "b.csv")}), or a named list that can also
+contain data frames (\code{list(A = "a.csv", SDTM = lb)}).}
 
-\item{specs}{A named list of vendor specs. Defaults to \code{\link[=vendor_specs]{vendor_specs()}}.}
+\item{specs}{A named list of vendor specs. Defaults to \code{\link[=vendor_specs]{vendor_specs()}}.
+Add your own with \code{c(vendor_specs(), list(C = vendor_spec(...)))}.}
 
 \item{rules}{Unit conversion rules. Defaults to \code{\link[=unit_rules]{unit_rules()}}.}
 
@@ -34,7 +36,10 @@ A \code{biomarkerqc_run} object: a list with
 \item \code{findings}: QC findings (\code{\link[=flag_issues]{flag_issues()}}).
 \item \code{reconciliation}: cross-vendor comparison (\code{\link[=reconcile_vendors]{reconcile_vendors()}}), or
 \code{NULL} when fewer than two vendors were ingested.
-\item \code{ingest_log}: one row per file, with its MD5 checksum.
+\item \code{ingest_log}: one row per source, with its MD5 checksum.
+\item \code{unchecked_tests}: tests with no unit rules, which were ingested and
+structurally checked but not normalized or value-checked, with their
+row counts.
 \item \code{settings}: the rules, synonyms, limits, checks and tolerance used.
 \item \code{run_info}: package version, R version and run time.
 }

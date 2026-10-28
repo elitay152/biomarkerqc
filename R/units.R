@@ -56,6 +56,9 @@ unit_synonyms <- function() {
 #' * `"unapproved_unit"`: the unit is not accepted for this test.
 #' * `"missing_unit"`: no unit was delivered.
 #' * `"no_result"`: the unit is fine but there is no numeric result.
+#' * `"no_unit_rule"`: `rules` has no entry for this test, so it is not
+#'   normalized or value-checked. This is expected for tests outside the
+#'   rules' scope, such as most of an SDTM LB domain.
 #' * `"unknown_test"`: the test code could not be identified at ingest.
 #'
 #' Censored results (such as `"<0.20"`) are converted too and keep their
@@ -98,6 +101,7 @@ normalize_units <- function(labs, rules = unit_rules(), synonyms = unit_synonyms
   status[is.na(labs$result)] <- "no_result"
   status[is.na(rule)] <- "unapproved_unit"
   status[is.na(labs$unit)] <- "missing_unit"
+  status[!labs$test_code %in% rules$test_code] <- "no_unit_rule"
   status[is.na(labs$test_code)] <- "unknown_test"
   labs$unit_status <- status
 

@@ -30,6 +30,9 @@ Each row gets a \code{unit_status} explaining what happened:
 \item \code{"unapproved_unit"}: the unit is not accepted for this test.
 \item \code{"missing_unit"}: no unit was delivered.
 \item \code{"no_result"}: the unit is fine but there is no numeric result.
+\item \code{"no_unit_rule"}: \code{rules} has no entry for this test, so it is not
+normalized or value-checked. This is expected for tests outside the
+rules' scope, such as most of an SDTM LB domain.
 \item \code{"unknown_test"}: the test code could not be identified at ingest.
 }
 

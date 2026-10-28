@@ -58,6 +58,11 @@ plausibility_limits <- function() {
 #' Duplicates are judged within each vendor: the same sample tested by two
 #' vendors is a reconciliation question, not a duplicate.
 #'
+#' Structural checks (subject IDs, missing results, duplicates) apply to every
+#' row. Value checks (non-numeric, censored and implausible results) apply
+#' only to tests covered by the unit rules; rows with `unit_status`
+#' `"no_unit_rule"` are counted by [run_qc()] instead of flagged.
+#'
 #' @param labs Lab results from [normalize_units()].
 #' @param limits Plausibility limits. Defaults to [plausibility_limits()].
 #'
@@ -93,8 +98,12 @@ flag_issues <- function(labs, limits = plausibility_limits()) {
 
   add("missing_subject_id", is.na(labs$subject_id))
   add("missing_result", is.na(labs$result_raw))
-  add("non_numeric_result", !is.na(labs$result_raw) & is.na(labs$result))
-  add("censored_result", !is.na(labs$qualifier),
+
+  # Value checks only apply to tests the unit rules cover: tests without rules
+  # include qualitative ones, where a result such as "N" is expected
+  in_scope <- labs$unit_status != "no_unit_rule"
+  add("non_numeric_result", in_scope & !is.na(labs$result_raw) & is.na(labs$result))
+  add("censored_result", in_scope & !is.na(labs$qualifier),
       paste0("reported as '", labs$result_raw, "'"))
 
   # Exact duplicates: every delivered field matches an earlier row
