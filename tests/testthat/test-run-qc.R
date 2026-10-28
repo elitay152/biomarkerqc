@@ -48,7 +48,10 @@ test_that("qc_report() writes a traceable HTML report", {
 
   run <- run_example()
   path <- withr::local_tempfile(fileext = ".html")
-  expect_equal(qc_report(run, path), normalizePath(path, mustWork = FALSE))
+  written <- qc_report(run, path)
+  # Compare resolved paths: the same file can be spelled differently
+  # (macOS /var vs /private/var, Windows 8.3 short names)
+  expect_equal(normalizePath(written), normalizePath(path))
   html <- paste(readLines(path, encoding = "UTF-8"), collapse = "\n")
 
   # Inputs are identified by checksum
@@ -63,6 +66,13 @@ test_that("qc_report() writes a traceable HTML report", {
   expect_match(html, "&lt;0.20", fixed = TRUE)
 })
 
-test_that("qc_report() rejects anything that is not a run", {
+test_that("qc_report() rejects bad arguments before rendering", {
   expect_error(qc_report(list()), class = "biomarkerqc_error_invalid_argument")
+
+  skip_if_not_installed("rmarkdown")
+  skip_if_not_installed("knitr")
+  skip_if_not(rmarkdown::pandoc_available())
+  missing_dir <- file.path(withr::local_tempdir(), "no-such-folder", "report.html")
+  expect_error(qc_report(run_example(), missing_dir),
+               class = "biomarkerqc_error_invalid_argument")
 })

@@ -97,7 +97,8 @@ print.biomarkerqc_run <- function(x, ...) {
 #' @return The path to the report, invisibly.
 #'
 #' @section Errors:
-#' * `biomarkerqc_error_invalid_argument`: `run` is not a `biomarkerqc_run`.
+#' * `biomarkerqc_error_invalid_argument`: `run` is not a `biomarkerqc_run`,
+#'   or the folder for `output_file` does not exist.
 #' * `biomarkerqc_error_missing_dependency`: rmarkdown, knitr or pandoc is
 #'   not available.
 #'
@@ -134,7 +135,16 @@ qc_report <- function(run, output_file = "qc_report.html", title = "Lab data QC 
   template <- file.path(work_dir, "qc_report.Rmd")
   file.copy(system.file("rmarkdown", "qc_report.Rmd", package = "biomarkerqc"), template)
 
-  output_file <- normalizePath(output_file, mustWork = FALSE)
+  # Resolve the folder, which exists, rather than the file, which does not
+  # yet: only existing paths get their canonical spelling on every OS
+  output_dir <- dirname(output_file)
+  if (!dir.exists(output_dir)) {
+    cli::cli_abort(
+      "Folder {.file {output_dir}} does not exist.",
+      class = c("biomarkerqc_error_invalid_argument", "biomarkerqc_error")
+    )
+  }
+  output_file <- file.path(normalizePath(output_dir), basename(output_file))
   rmarkdown::render(
     template,
     output_file = basename(output_file),

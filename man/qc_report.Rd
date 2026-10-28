@@ -28,7 +28,8 @@ Requires the rmarkdown and knitr packages and pandoc.
 \section{Errors}{
 
 \itemize{
-\item \code{biomarkerqc_error_invalid_argument}: \code{run} is not a \code{biomarkerqc_run}.
+\item \code{biomarkerqc_error_invalid_argument}: \code{run} is not a \code{biomarkerqc_run},
+or the folder for \code{output_file} does not exist.
 \item \code{biomarkerqc_error_missing_dependency}: rmarkdown, knitr or pandoc is
 not available.
 }
