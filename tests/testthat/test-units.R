@@ -46,6 +46,16 @@ test_that("each problem gets its own status and no converted value", {
   expect_equal(is.na(out$result_std), c(TRUE, TRUE, TRUE, TRUE, FALSE))
 })
 
+test_that("tests without unit rules are marked, not treated as unit errors", {
+  labs <- lab_row(c("ALT", "ANISO"), c(30, NA), c("U/L", "NO UNITS"))
+  labs$result_raw[2] <- "N" # qualitative result
+  labs$visit <- c("SCR", "WK4")
+  out <- normalize_units(labs)
+  expect_equal(out$unit_status, c("no_unit_rule", "no_unit_rule"))
+  expect_true(all(is.na(out$result_std)))
+  expect_equal(nrow(flag_issues(out)), 0)
+})
+
 test_that("the most fundamental problem wins when a row has several", {
   # Unapproved unit and no result: the unit problem is reported
   out <- normalize_units(lab_row("GLUC", NA_real_, "g/L"))

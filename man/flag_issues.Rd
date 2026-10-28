@@ -25,6 +25,11 @@ The lab data itself is not changed.
 \details{
 Duplicates are judged within each vendor: the same sample tested by two
 vendors is a reconciliation question, not a duplicate.
+
+Structural checks (subject IDs, missing results, duplicates) apply to every
+row. Value checks (non-numeric, censored and implausible results) apply
+only to tests covered by the unit rules; rows with \code{unit_status}
+\code{"no_unit_rule"} are counted by \code{\link[=run_qc]{run_qc()}} instead of flagged.
 }
 \section{Errors}{
 

@@ -10,12 +10,12 @@ read_vendor_file(path, vendor)
 \item{path}{Path to the vendor file.}
 
 \item{vendor}{A vendor name from \code{\link[=vendor_specs]{vendor_specs()}} (such as \code{"A"}), or a
-spec list with the same structure.}
+spec from \code{\link[=vendor_spec]{vendor_spec()}}.}
 }
 \value{
 A data frame with the columns in \link{standard_columns}, one row per
 data row in the file. It carries an \code{"ingest_log"} attribute recording
-the file name, its MD5 checksum, the row count and the time of ingest.
+the source, its MD5 checksum, the row count and the time of ingest.
 }
 \description{
 Read one vendor lab file into the standard schema
@@ -24,6 +24,7 @@ Read one vendor lab file into the standard schema
 
 \itemize{
 \item \code{biomarkerqc_error_unknown_vendor}: \code{vendor} is not a known spec.
+\item \code{biomarkerqc_error_invalid_spec}: \code{vendor} is a malformed spec.
 \item \code{biomarkerqc_error_file_not_found}: \code{path} does not exist.
 \item \code{biomarkerqc_error_read}: the file could not be parsed.
 \item \code{biomarkerqc_error_missing_columns}: required columns are absent.
@@ -40,4 +41,7 @@ with \code{NA} in the affected field.
 \examples{
 a <- read_vendor_file(biomarkerqc_example("vendor_a_results.csv"), "A")
 head(a)
+}
+\seealso{
+\code{\link[=read_vendor_data]{read_vendor_data()}} for data that is already in R.
 }

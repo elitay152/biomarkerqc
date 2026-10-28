@@ -10,16 +10,16 @@ A character vector of column names.
 standard_columns
 }
 \description{
-Every ingested file is returned with exactly these columns, in this order.
+Every ingested file or data frame is returned with exactly these columns,
+in this order.
 }
 \details{
 \itemize{
 \item \code{vendor}: vendor name from the spec (for example \code{"A"}).
-\item \code{subject_id}: standard subject ID (for example \code{"SUBJ-0001"}), or \code{NA}
-if the source value was blank or could not be mapped.
-\item \code{visit}: standard visit code (\code{"SCR"}, \code{"WK4"}, \code{"WK12"}).
-\item \code{test_code}: standard test code (\code{"GLUC"}, \code{"CREAT"}, \code{"HBA1C"},
-\code{"CHOL"}, \code{"K"}).
+\item \code{subject_id}: standard subject ID, or \code{NA} if the source value was blank
+or could not be mapped.
+\item \code{visit}, \code{test_code}: standard codes from the spec's mappings, or the
+values as delivered when the spec has no mapping.
 \item \code{collection_date}: sample collection date (\code{Date}).
 \item \code{result_raw}: the result exactly as delivered (character).
 \item \code{result}: the result parsed as a number, or \code{NA} if blank or not numeric.
@@ -27,8 +27,9 @@ if the source value was blank or could not be mapped.
 otherwise \code{NA}.
 \item \code{unit_raw}: the unit exactly as delivered. Units are normalized in a
 later step, not during ingest.
-\item \code{source_file}: base name of the file the row came from.
-\item \code{source_line}: line number in that file (the header is line 1), so any
-row can be traced back to the original delivery.
+\item \code{source_file}: base name of the file the row came from, or a label for a
+data frame.
+\item \code{source_line}: line number in that file (the header is line 1), or the
+row number in a data frame, so any row can be traced back to its source.
 }
 }

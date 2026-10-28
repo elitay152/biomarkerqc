@@ -72,6 +72,18 @@ log$ingested_at <- format(log$ingested_at, "%Y-%m-%d %H:%M:%S")
 tbl(log)
 ```
 
+```{r unchecked, results = "asis"}
+if (nrow(run$unchecked_tests) > 0) {
+  cat(sprintf(
+    "\n### Tests not value-checked\n\n%d tests (%d rows) have no unit rules, so they were
+ingested and checked for structural problems (IDs, blanks, duplicates) but not
+normalized or checked for implausible values. Add unit rules to bring a test into scope.\n\n",
+    nrow(run$unchecked_tests), sum(run$unchecked_tests$rows)
+  ))
+  print(tbl(run$unchecked_tests))
+}
+```
+
 ### Findings by check
 
 ```{r by-check}

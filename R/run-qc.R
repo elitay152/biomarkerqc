@@ -16,7 +16,10 @@
 #'   * `findings`: QC findings ([flag_issues()]).
 #'   * `reconciliation`: cross-vendor comparison ([reconcile_vendors()]), or
 #'     `NULL` when fewer than two vendors were ingested.
-#'   * `ingest_log`: one row per file, with its MD5 checksum.
+#'   * `ingest_log`: one row per source, with its MD5 checksum.
+#'   * `unchecked_tests`: tests with no unit rules, which were ingested and
+#'     structurally checked but not normalized or value-checked, with their
+#'     row counts.
 #'   * `settings`: the rules, synonyms, limits, checks and tolerance used.
 #'   * `run_info`: package version, R version and run time.
 #' @export
@@ -41,12 +44,18 @@ run_qc <- function(files,
     reconcile_vendors(labs, tolerance = tolerance)
   }
 
+  no_rule <- labs$test_code[labs$unit_status == "no_unit_rule"]
+  counts <- table(no_rule)
+  unchecked_tests <- data.frame(test_code = names(counts), rows = as.vector(counts),
+                                stringsAsFactors = FALSE)
+
   structure(
     list(
       labs = labs,
       findings = flag_issues(labs, limits),
       reconciliation = reconciliation,
       ingest_log = ingest_log,
+      unchecked_tests = unchecked_tests,
       settings = list(
         rules = rules, synonyms = synonyms, limits = limits,
         checks = qc_checks(), tolerance = tolerance
@@ -66,6 +75,12 @@ print.biomarkerqc_run <- function(x, ...) {
   severity <- table(factor(x$findings$severity, levels = c("error", "warning", "info")))
   cli::cli_h1("biomarkerqc run")
   cli::cli_text("{nrow(x$ingest_log)} file{?s}, {nrow(x$labs)} rows")
+  if (nrow(x$unchecked_tests) > 0) {
+    cli::cli_text(
+      "{nrow(x$unchecked_tests)} test{?s} without unit rules were not value-checked ",
+      "({sum(x$unchecked_tests$rows)} rows)"
+    )
+  }
   cli::cli_bullets(c(
     "x" = "{severity[['error']]} error finding{?s}",
     "!" = "{severity[['warning']]} warning finding{?s}",

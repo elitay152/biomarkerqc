@@ -2,22 +2,24 @@
 % Please edit documentation in R/ingest.R
 \name{ingest_lab_files}
 \alias{ingest_lab_files}
-\title{Ingest several vendor files into one table}
+\title{Ingest several vendor sources into one table}
 \usage{
 ingest_lab_files(files, specs = vendor_specs())
 }
 \arguments{
-\item{files}{A named character vector of file paths, where each name is the
-vendor (for example \code{c(A = "a.csv", B = "b.csv")}).}
+\item{files}{Lab data named by vendor: a named character vector of file
+paths (\code{c(A = "a.csv", B = "b.csv")}), or a named list that can also
+contain data frames (\code{list(A = "a.csv", SDTM = lb)}).}
 
-\item{specs}{A named list of vendor specs. Defaults to \code{\link[=vendor_specs]{vendor_specs()}}.}
+\item{specs}{A named list of vendor specs. Defaults to \code{\link[=vendor_specs]{vendor_specs()}}.
+Add your own with \code{c(vendor_specs(), list(C = vendor_spec(...)))}.}
 }
 \value{
 One data frame in the standard schema, with an \code{"ingest_log"}
-attribute holding one row per file.
+attribute holding one row per source.
 }
 \description{
-Ingest several vendor files into one table
+Ingest several vendor sources into one table
 }
 \examples{
 labs <- ingest_lab_files(c(

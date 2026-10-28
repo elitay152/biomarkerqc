@@ -7,28 +7,25 @@
 vendor_specs()
 }
 \value{
-A named list of vendor specs.
+A named list of \code{biomarkerqc_vendor_spec} objects.
 }
 \description{
-Returns the specs for the two example vendors shipped with the package.
-A spec is a list with:
+Returns the specs shipped with the package:
 }
 \details{
 \itemize{
-\item \code{name}: vendor name.
-\item \code{delim}, \code{decimal_mark}: how the file is delimited and how decimals
-are written.
-\item \code{columns}: named character vector mapping each standard field to the
-vendor's column name.
-\item \code{subject_id}: function converting the vendor's subject IDs to standard
-IDs, returning \code{NA} for values it cannot convert.
-\item \code{visits}, \code{tests}: named character vectors mapping vendor values (names)
-to standard codes (values).
-\item \code{date_format}: format string for \code{\link[=strptime]{strptime()}}.
+\item \code{A}, \code{B}: the two synthetic example vendors (see \code{\link[=biomarkerqc_example]{biomarkerqc_example()}}).
+\item \code{SDTM}: the CDISC SDTM laboratory (LB) domain, the standard format for
+clinical trial lab data. It reads original results (\code{LBORRES},
+\code{LBORRESU}) and keeps \code{VISIT} and \code{LBTESTCD} as delivered. SDTM data
+usually arrives as SAS transport files: read them with
+\code{haven::read_xpt()} and pass the data frame to \code{\link[=ingest_lab_files]{ingest_lab_files()}}.
 }
+
+See \code{\link[=vendor_spec]{vendor_spec()}} to define your own.
 }
 \examples{
 specs <- vendor_specs()
 names(specs)
-specs$B$tests
+specs$SDTM
 }
