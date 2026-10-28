@@ -1,0 +1,167 @@
+---
+title: "`r params$title`"
+output:
+  html_document:
+    toc: true
+    toc_float: false
+    theme: flatly
+params:
+  run: NULL
+  title: "Lab data QC report"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+options(knitr.kable.NA = "") # blank deliveries show as blank, not "NA"
+run <- params$run
+findings <- run$findings
+rec <- run$reconciliation
+
+# kable() escapes HTML, so results such as "<0.20" display literally
+tbl <- function(df, ...) {
+  if (nrow(df) == 0) return(knitr::asis_output("<p><em>None.</em></p>"))
+  knitr::kable(df, format = "html", row.names = FALSE, escape = TRUE,
+               table.attr = 'class="table table-condensed table-striped"', ...)
+}
+finding_cols <- c("check", "vendor", "subject_id", "visit", "test_code",
+                  "result_raw", "unit_raw", "detail", "source_file", "source_line")
+count_by <- function(x, levels) {
+  counts <- table(factor(x, levels = levels))
+  data.frame(value = names(counts), n = as.vector(counts))
+}
+```
+
+<style>
+.summary-grid { display: flex; gap: 1em; flex-wrap: wrap; margin: 1em 0; }
+.summary-grid div { border: 1px solid #ddd; border-radius: 6px; padding: 0.6em 1em; min-width: 9em; }
+.summary-grid b { display: block; font-size: 1.6em; }
+.error b { color: #c0392b; } .warning b { color: #d68910; } .info b { color: #2471a3; }
+.main-container { max-width: 1400px; }
+table.table { display: block; overflow-x: auto; }
+table.table td, table.table th { white-space: nowrap; }
+</style>
+
+Generated `r format(run$run_info$run_at, "%Y-%m-%d %H:%M:%S %Z")` by biomarkerqc
+`r run$run_info$package_version` (`r run$run_info$r_version`).
+
+## Summary
+
+```{r summary-cards, results = "asis"}
+sev <- table(factor(findings$severity, levels = c("error", "warning", "info")))
+cat(sprintf(
+  '<div class="summary-grid">
+  <div><b>%d</b>rows ingested</div>
+  <div class="error"><b>%d</b>errors</div>
+  <div class="warning"><b>%d</b>warnings</div>
+  <div class="info"><b>%d</b>info</div>
+  <div><b>%s</b>shared samples need review</div>
+</div>',
+  nrow(run$labs), sev[["error"]], sev[["warning"]], sev[["info"]],
+  if (is.null(rec)) "n/a" else sum(rec$status != "agree")
+))
+```
+
+### Input files
+
+Checksums identify the exact files that were checked. If a file's MD5 no longer
+matches, it has changed since this report was produced.
+
+```{r inputs}
+log <- run$ingest_log
+log$ingested_at <- format(log$ingested_at, "%Y-%m-%d %H:%M:%S")
+tbl(log)
+```
+
+### Findings by check
+
+```{r by-check}
+checks <- run$settings$checks
+checks$findings <- as.vector(table(factor(findings$check, levels = checks$check)))
+tbl(checks[, c("check", "severity", "findings", "description")])
+```
+
+## Errors
+
+Results that cannot be used as delivered.
+
+```{r errors}
+tbl(findings[findings$severity == "error", finding_cols])
+```
+
+## Warnings
+
+Incomplete or redundant data.
+
+```{r warnings}
+tbl(findings[findings$severity == "warning", finding_cols])
+```
+
+## Info
+
+```{r info}
+tbl(findings[findings$severity == "info", finding_cols])
+```
+
+## Cross-vendor reconciliation
+
+```{r rec-intro, results = "asis"}
+if (is.null(rec)) {
+  cat("Only one vendor was ingested, so there was nothing to reconcile.")
+} else {
+  v <- attr(rec, "vendors")
+  cat(sprintf(
+    "Compared %d samples reported by both vendor %s (`_a`) and vendor %s (`_b`).
+Results agree when their relative difference is at most %s%%.",
+    nrow(rec), v[1], v[2], 100 * run$settings$tolerance
+  ))
+}
+```
+
+```{r rec-status}
+if (!is.null(rec)) {
+  tbl(count_by(rec$status, c("agree", "discrepant", "censored", "date_mismatch",
+                             "ambiguous", "unusable")),
+      col.names = c("status", "samples"))
+}
+```
+
+### Samples needing review
+
+```{r rec-review}
+if (!is.null(rec)) {
+  review <- rec[rec$status != "agree", ]
+  review$result_a <- signif(review$result_a, 4)
+  review$result_b <- signif(review$result_b, 4)
+  review$rel_diff <- sprintf("%.1f%%", 100 * review$rel_diff)
+  tbl(review)
+}
+```
+
+## Settings used
+
+### Unit conversion rules
+
+`approved value = value x multiplier + offset`
+
+```{r rules}
+rules <- run$settings$rules
+rules$multiplier <- signif(rules$multiplier, 6)
+tbl(rules)
+```
+
+### Unit spelling synonyms
+
+Matching is case-insensitive.
+
+```{r synonyms}
+syn <- run$settings$synonyms
+tbl(data.frame(delivered = names(syn), treated_as = unname(syn)))
+```
+
+### Plausibility limits
+
+In each test's approved unit.
+
+```{r limits}
+tbl(run$settings$limits)
+```
