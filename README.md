@@ -6,7 +6,7 @@
 
 Quality control for clinical biomarker lab files, written as an R package.
 
-> **Status:** in development. All data in this repository is synthetic.
+> All data in this repository is synthetic.
 
 ## What it does
 
@@ -22,6 +22,53 @@ into one clean, auditable dataset:
 | Flag | Mark duplicates, missing values and out-of-range results |
 | Report | Produce a QC report that traces every issue back to its source file and row |
 
+## Installation
+
+```r
+# install.packages("remotes")
+remotes::install_github("elitay152/biomarkerqc")
+```
+
+## Usage
+
+Run the whole pipeline on the example files shipped with the package:
+
+```r
+library(biomarkerqc)
+
+run <- run_qc(c(
+  A = biomarkerqc_example("vendor_a_results.csv"),
+  B = biomarkerqc_example("vendor_b_results.csv")
+))
+run
+#> ── biomarkerqc run ──────────────────────────────────────
+#> 2 files, 3608 rows
+#> ✖ 12 error findings
+#> ! 15 warning findings
+#> ℹ 3 info findings
+#> Reconciliation: 596 of 600 shared samples agree, 4 need review
+
+qc_report(run, "qc_report.html")
+```
+
+Every finding records the source file and line it came from, and the report
+lists each input file's MD5 checksum, so any issue can be traced back to the
+exact delivery that caused it.
+
+Each stage can also be run on its own:
+
+| Function | Stage |
+|---|---|
+| `ingest_lab_files()` | Read vendor files into the standard schema (`standard_columns`) |
+| `normalize_units()` | Convert results to approved units (`unit_rules()`, `unit_synonyms()`) |
+| `flag_issues()` | Run the QC checks (`qc_checks()`, `plausibility_limits()`) |
+| `reconcile_vendors()` | Compare results that two vendors reported for the same samples |
+| `run_qc()`, `qc_report()` | Run everything and write the HTML report |
+
+Vendor formats, unit rules and limits are all data, so supporting a new vendor
+or approving a new unit means editing a table, not the code. See
+`vendor_specs()` for the format of a vendor spec.
+
 ## Roadmap
 
 - [x] Package skeleton
@@ -30,5 +77,5 @@ into one clean, auditable dataset:
 - [x] Unit normalization
 - [x] Duplicate, missing-value and plausibility flags
 - [x] Cross-vendor reconciliation
-- [ ] Traceable QC report
+- [x] Traceable QC report
 - [x] Continuous integration (R CMD check on GitHub Actions)
