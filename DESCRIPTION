@@ -1,6 +1,6 @@
 Package: biomarkerqc
 Title: Quality Control for Clinical Biomarker Lab Files
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R:
     person("Eli", "Taylor", , "116466727+elitay152@users.noreply.github.com", role = c("aut", "cre"))
 Description: Ingests clinical laboratory result files from multiple vendors,
