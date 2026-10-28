@@ -29,6 +29,6 @@ into one clean, auditable dataset:
 - [x] Ingest and standard schema
 - [x] Unit normalization
 - [x] Duplicate, missing-value and plausibility flags
-- [ ] Cross-vendor reconciliation
+- [x] Cross-vendor reconciliation
 - [ ] Traceable QC report
 - [x] Continuous integration (R CMD check on GitHub Actions)
